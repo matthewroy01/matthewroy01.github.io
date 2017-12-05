@@ -48,4 +48,12 @@ Panic is a 2D, top-down strategy game with horror elements. The player moves aro
 
 ### Battle Beetles
 
+A summer project made in Unity, this game is a work in progress.
+
+Battle Beetles aims to capture the sort of over the top scenarios you'd think up as a kid while playing with toys. Battle Beetles is a 3D arena fighter where mechanical beetles use their horns, antennae, and more to come out on top.
+
 ### Recreating the first dungeon from The Legend of Zelda
+
+Made as a final project in "Game Architecture" in C++.
+
+Using a code base we wrote throughout the semester, Allegro, and various game programming patterns like Game Loop and Components, [Nicholas Robbins](https://github.com/telden) and I roughly recreated the first dungeon from Nintendo's The Legend of Zelda.
