@@ -1,6 +1,7 @@
 ## Welcome to my portfolio
 
 I am Matthew Roy, a Junior currently attending Champlain College in Burlington Vermont.
+
 email: matthew.roy01@mymail.champlain.edu
 
 ## Projects
