@@ -42,6 +42,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Panic
 
-### Recreating the first dungeon from The Legend of Zelda
+Made over the course of a semester in "Advanced Seminar in Game Programming" in Unity. 
+
+Panic is a 2D, top-down strategy game with horror elements. The player moves around on a grid avoiding enemies and collecting keys to escape each level. Getting seen by an enenmy causing the player to enter Panic Mode. In Panic Mode, the player is freed from the constraints of the grid while enemy AI also changes.
 
 ### Battle Beetles
+
+### Recreating the first dungeon from The Legend of Zelda
