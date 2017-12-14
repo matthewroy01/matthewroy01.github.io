@@ -19,7 +19,13 @@ alt="Trailer for Panic" width="480" height="360" border="10" /></a>
 
 ### Battle Beetles
 
-A summer project made in Unity, this game is a work in progress.
+* 3D Fighter
+* Made in Unity 5
+* Team size: 4
+* 2017
+
+![Battle Beetles Screenshot](https://imgur.com/DeePljO)
+A summer project, this game is a work in progress.
 
 Battle Beetles aims to capture the sort of over the top scenarios you'd think up as a kid while playing with toys. Battle Beetles is a 3D arena fighter where mechanical beetles use their horns, antennae, and more to come out on top.
 
