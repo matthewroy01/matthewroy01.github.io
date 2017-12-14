@@ -8,9 +8,14 @@ email: matthew.roy01@mymail.champlain.edu
 
 ### Panic
 
-Made over the course of a semester in "Advanced Seminar in Game Programming" in Unity. 
+**Strategy
+Made in Unity 2017.2
+Team size: solo
+2017**
 
 Panic is a 2D, top-down strategy game with horror elements. The player moves around on a grid avoiding enemies and collecting keys to escape each level. Getting seen by an enenmy causing the player to enter Panic Mode. In Panic Mode, the player is freed from the constraints of the grid while enemy AI also changes.
+
+Panic was made for Advanced Seminar in Game Programming while studying abroad in Montreal.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mbQOlYpU16U
 " target="_blank"><img src="http://img.youtube.com/vi/mbQOlYpU16U/0.jpg" 
