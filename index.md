@@ -14,7 +14,7 @@ Panic is a 2D, top-down strategy game with horror elements. The player moves aro
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mbQOlYpU16U
 " target="_blank"><img src="http://img.youtube.com/vi/mbQOlYpU16U/0.jpg" 
-alt="Trailer for Panic" width="240" height="180" border="10" /></a>
+alt="Trailer for Panic" width="480" height="360" border="10" /></a>
 
 ### Battle Beetles
 
