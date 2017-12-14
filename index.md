@@ -13,6 +13,7 @@ Panic is a 2D, top-down strategy game with horror elements. The player moves aro
 
 Panic was made for Advanced Seminar in Game Programming while studying abroad in Montreal.
 
+Click image for the trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mbQOlYpU16U
 " target="_blank"><img src="http://img.youtube.com/vi/mbQOlYpU16U/0.jpg" 
 alt="Trailer for Panic" width="480" height="360" border="10" /></a>
