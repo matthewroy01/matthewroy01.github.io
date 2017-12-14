@@ -36,6 +36,11 @@ Battle Beetles aims to capture the sort of over the top scenarios you'd think up
 
 ### Recreating the first dungeon from The Legend of Zelda
 
+* Action Adventure
+* Made in Visual Studio C++
+* Team size: 2
+* 2017
+
 Made as a final project in "Game Architecture" in C++.
 
-Using a code base we wrote throughout the semester, Allegro, and various game programming patterns like Game Loop and Components, [Nicholas Robbins](https://github.com/telden) and I roughly recreated the first dungeon from Nintendo's The Legend of Zelda.
+Using a code base we wrote throughout the semester, Allegro, and various game programming patterns like Game Loop and Component System, [Nicholas Robbins](https://github.com/telden) and I roughly recreated the first dungeon from Nintendo's The Legend of Zelda.
