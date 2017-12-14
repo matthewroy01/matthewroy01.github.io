@@ -12,6 +12,10 @@ Made over the course of a semester in "Advanced Seminar in Game Programming" in 
 
 Panic is a 2D, top-down strategy game with horror elements. The player moves around on a grid avoiding enemies and collecting keys to escape each level. Getting seen by an enenmy causing the player to enter Panic Mode. In Panic Mode, the player is freed from the constraints of the grid while enemy AI also changes.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mbQOlYpU16U
+" target="_blank"><img src="http://img.youtube.com/vi/mbQOlYpU16U/0.jpg" 
+alt="Trailer for Panic" width="240" height="180" border="10" /></a>
+
 ### Battle Beetles
 
 A summer project made in Unity, this game is a work in progress.
