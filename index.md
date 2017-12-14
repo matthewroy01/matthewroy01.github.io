@@ -8,10 +8,10 @@ email: matthew.roy01@mymail.champlain.edu
 
 ### Panic
 
-**Strategy**
-**Made in Unity 2017.2**
-**Team size: solo**
-**2017**
+Strategy
+Made in Unity 2017.2
+Team size: solo
+2017
 
 Panic is a 2D, top-down strategy game with horror elements. The player moves around on a grid avoiding enemies and collecting keys to escape each level. Getting seen by an enenmy causing the player to enter Panic Mode. In Panic Mode, the player is freed from the constraints of the grid while enemy AI also changes.
 
