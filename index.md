@@ -26,10 +26,11 @@ alt="Trailer for Panic" width="480" height="360" border="10" /></a>
 * Team size: 4
 * 2017
 
-![Battle Beetles Screenshot](https://i.imgur.com/DeePljO.png)
 A summer project, this game is a work in progress.
 
 Battle Beetles aims to capture the sort of over the top scenarios you'd think up as a kid while playing with toys. Battle Beetles is a 3D arena fighter where mechanical beetles use their horns, antennae, and more to come out on top.
+
+![Battle Beetles Screenshot](https://i.imgur.com/DeePljO.png)
 
 ### Recreating the first dungeon from The Legend of Zelda
 
