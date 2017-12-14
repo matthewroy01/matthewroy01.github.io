@@ -1,3 +1,10 @@
+.coolBorder {
+      border: 2px solid black;
+      padding: 50px;
+      outline: black solid 5px;
+      outline-offset: 5px;
+    }
+
 ## Welcome to my portfolio
 
 I am Matthew Roy, a Junior currently attending Champlain College in Burlington Vermont.
@@ -8,9 +15,11 @@ email: matthew.roy01@mymail.champlain.edu
 
 ### Panic
 
+<div class="coolborder">
 Made over the course of a semester in "Advanced Seminar in Game Programming" in Unity. 
 
 Panic is a 2D, top-down strategy game with horror elements. The player moves around on a grid avoiding enemies and collecting keys to escape each level. Getting seen by an enenmy causing the player to enter Panic Mode. In Panic Mode, the player is freed from the constraints of the grid while enemy AI also changes.
+</div>
 
 ### Battle Beetles
 
