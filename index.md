@@ -2,8 +2,6 @@
 
 ## Projects
 
----
-
 ### Panic
 
 * Strategy
