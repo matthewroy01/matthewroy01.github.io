@@ -15,7 +15,7 @@ Panic was made for Advanced Seminar in Game Programming while studying abroad in
 
 ![](https://media.giphy.com/media/l4EoYhC3mTnWK138I/giphy.gif)
 
-[This game on Game Jolt](https://gamejolt.com/games/Panic/308831)
+[Download this game on Game Jolt](https://gamejolt.com/games/Panic/308831)
 
 ### Battle Beetles
 
