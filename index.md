@@ -19,6 +19,21 @@ Panic was made for Advanced Seminar in Game Programming while studying abroad in
 
 ---
 
+### Opportunity Knocks
+
+* Action Game
+* Made in Unity 5
+* Team size: 4
+* 2018
+
+Opportunity Knocks is a game made for the Global Game Jam 2018 with the theme of "transmission".
+
+Opportunity Knocks has the player controlling a Mars rover remotely from a computer, but the connection is terrible! Use the boost button to increase the framerate but keep an eye on how much power in remaining or else it's game over. The game is played with the num pad where the 3 left and 3 rights buttons control the wheels.
+
+![](https://ggj.s3.amazonaws.com/styles/feature_image__wide/games/screenshots/still_2_10.png?itok=H7kFmTos&timestamp=1517155837)
+
+---
+
 ### Battle Beetles
 
 * 3D Fighter
