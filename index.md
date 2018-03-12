@@ -22,7 +22,7 @@ Panic was made for Advanced Seminar in Game Programming while studying abroad in
 ### Opportunity Knocks
 
 * Action Game
-* Made in Unity 5
+* Made in Unity 2017.3
 * Team size: 4
 * 2018
 
