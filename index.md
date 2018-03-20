@@ -1,5 +1,7 @@
 # Projects
 
+---
+
 ### [About Me Page](https://matthewroy01.github.io/aboutme)
 
 ---
