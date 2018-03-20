@@ -1,6 +1,6 @@
-## About Me
-
 ### [Projects](https://matthewroy01.github.io)
+
+## About Me
 
 I am Matthew Roy, a Junior currently attending Champlain College in Burlington Vermont.
 
