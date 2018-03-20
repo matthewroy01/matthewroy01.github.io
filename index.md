@@ -32,7 +32,7 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 
 ![](https://ggj.s3.amazonaws.com/styles/feature_image__wide/games/screenshots/still_2_10.png?itok=H7kFmTos&timestamp=1517155837)
 
-[Download this game on Game Jolt](https://gamejolt.com/games/OpportunityKnocks/325797)
+[Download this game on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks)
 
 ---
 
