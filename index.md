@@ -2,6 +2,8 @@
 
 ### [About Me](https://matthewroy01.github.io/aboutme)
 
+---
+
 ### Panic
 
 * Strategy
@@ -17,7 +19,7 @@ Panic was made for Advanced Seminar in Game Programming while studying abroad in
 
 [Download this game on Game Jolt](https://gamejolt.com/games/Panic/308831)
 
----
+
 
 ### Opportunity Knocks
 
