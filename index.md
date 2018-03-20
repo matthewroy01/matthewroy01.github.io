@@ -51,7 +51,7 @@ Made for Production 2, spring 2018 semester. Currently under development. Follow
 
 RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
 
-![RV Punch Gif]()
+![RV Punch Gif](https://media.giphy.com/media/7w4u8IjWbxuj3vWyKL/giphy.gif)
 
 ---
 
