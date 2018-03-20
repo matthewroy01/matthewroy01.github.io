@@ -13,7 +13,7 @@ Panic is a 2D, top-down strategy game with horror elements. The player moves aro
 
 Panic was made for Advanced Seminar in Game Programming while studying abroad in Montreal.
 
-![](https://media.giphy.com/media/4T7zmKRa65oUFW8cJ5/giphy.gif)
+![Panic Gif](https://media.giphy.com/media/4T7zmKRa65oUFW8cJ5/giphy.gif)
 
 [Download this game on Game Jolt](https://gamejolt.com/games/Panic/308831)
 
@@ -30,7 +30,7 @@ Opportunity Knocks is a game made for the Global Game Jam 2018 with the theme of
 
 Opportunity Knocks has the player controlling a Mars rover remotely from a computer, but the connection is terrible! Use the boost button to increase the framerate but keep an eye on how much power in remaining or else it's game over. The game is played with the num pad where the 3 left and 3 rights buttons control the wheels.
 
-![](https://media.giphy.com/media/SiJYIT5CxwITBRDcCv/giphy.gif)
+![Opportunity Knocks Gif](https://media.giphy.com/media/SiJYIT5CxwITBRDcCv/giphy.gif)
 
 [Download this game on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks)
 
@@ -47,7 +47,7 @@ A summer project, this game is a work in progress.
 
 Battle Beetles aims to capture the sort of over the top scenarios you'd think up as a kid while playing with toys. Battle Beetles is a 3D arena fighter where mechanical beetles use their horns, antennae, and more to come out on top.
 
-![](https://media.giphy.com/media/26mdR6Yd4qTvgq9pI1/giphy.gif)
+![Battle Beetles Gif](https://media.giphy.com/media/26mdR6Yd4qTvgq9pI1/giphy.gif)
 
 ---
 
