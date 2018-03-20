@@ -81,3 +81,5 @@ Made as a final project in "Game Architecture" in C++.
 
 Created with [Nicholas Robbins](https://telden.github.io/), we roughly recreated the first dungeon from Nintendo's The Legend of Zelda.
 The project uses a code base we wrote throughout the semester, Allegro 5, and various game programming patterns like Game Loop and a Component System.
+
+![Zelda Gif](https://media.giphy.com/media/OjI22jqHhPmpszPrBD/giphy.gif)
