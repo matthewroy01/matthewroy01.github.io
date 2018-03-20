@@ -1,4 +1,4 @@
-## Projects
+# Projects
 ---
 
 ### [About Me](https://matthewroy01.github.io/aboutme)
