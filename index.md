@@ -6,7 +6,7 @@
 
 ---
 
-### Panic
+## Panic
 
 * Strategy
 * Made in Unity 2017.2
@@ -23,7 +23,7 @@ Panic was made for Advanced Seminar in Game Programming while studying abroad in
 
 ---
 
-### Opportunity Knocks
+## Opportunity Knocks
 
 * Action Game
 * Made in Unity 2017.3
@@ -40,7 +40,7 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 
 ---
 
-### RV Punch
+## RV Punch
 
 * Racing
 * Made in Unity 2017.3
@@ -55,7 +55,7 @@ RV Punch is a racing game where RV's are equipped with giant mech fists. Punch y
 
 ---
 
-### Battle Beetles
+## Battle Beetles
 
 * 3D Fighter
 * Made in Unity 5
@@ -70,7 +70,7 @@ Battle Beetles aims to capture the sort of over the top scenarios you'd think up
 
 ---
 
-### Recreating the first dungeon from The Legend of Zelda
+## Recreating the first dungeon from The Legend of Zelda
 
 * Action Adventure
 * Made in Visual Studio C++
