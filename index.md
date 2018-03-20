@@ -36,6 +36,21 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 
 ---
 
+### RV Punch
+
+* Racing
+* Made in Unity 2017.3
+* Team size: 8
+* 2018
+
+Made for Production 2, spring 2018 semester. Currently under development. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
+
+RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
+
+![RV Punch Gif]()
+
+---
+
 ### Battle Beetles
 
 * 3D Fighter
@@ -60,4 +75,5 @@ Battle Beetles aims to capture the sort of over the top scenarios you'd think up
 
 Made as a final project in "Game Architecture" in C++.
 
-Using a code base we wrote throughout the semester, Allegro, and various game programming patterns like Game Loop and Component System, [Nicholas Robbins](https://github.com/telden) and I roughly recreated the first dungeon from Nintendo's The Legend of Zelda.
+Created with [Nicholas Robbins](https://telden.github.io/), we roughly recreated the first dungeon from Nintendo's The Legend of Zelda.
+The project uses a code base we wrote throughout the semester, Allegro 5, and various game programming patterns like Game Loop and a Component System.
