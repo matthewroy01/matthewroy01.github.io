@@ -1,9 +1,11 @@
 # Projects
 
 ---
+---
 
 ### [About Me Page](https://matthewroy01.github.io/aboutme)
 
+---
 ---
 
 ### Panic
@@ -22,6 +24,7 @@ Panic was made for Advanced Seminar in Game Programming while studying abroad in
 [Download this game on Game Jolt](https://gamejolt.com/games/Panic/308831)
 
 ---
+---
 
 ### Opportunity Knocks
 
@@ -39,6 +42,7 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 [Download this game on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks)
 
 ---
+---
 
 ### RV Punch
 
@@ -54,6 +58,7 @@ RV Punch is a racing game where RV's are equipped with giant mech fists. Punch y
 ![RV Punch Gif](https://media.giphy.com/media/7w4u8IjWbxuj3vWyKL/giphy.gif)
 
 ---
+---
 
 ### Battle Beetles
 
@@ -68,6 +73,7 @@ Battle Beetles aims to capture the sort of over the top scenarios you'd think up
 
 ![Battle Beetles Gif](https://media.giphy.com/media/26mdR6Yd4qTvgq9pI1/giphy.gif)
 
+---
 ---
 
 ### Recreating the first dungeon from The Legend of Zelda
