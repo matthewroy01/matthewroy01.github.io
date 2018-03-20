@@ -1,6 +1,6 @@
-### [About Me](https://matthewroy01.github.io/aboutme)
-
 ## Projects
+
+### [About Me](https://matthewroy01.github.io/aboutme)
 
 ### Panic
 
