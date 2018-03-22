@@ -15,9 +15,9 @@
 * Team size: solo
 * 2017
 
-Panic is a 2D, top-down strategy game with horror elements. The player moves around on a grid avoiding enemies and collecting keys to escape each level. Getting seen by an enenmy causing the player to enter Panic Mode. In Panic Mode, the player is freed from the constraints of the grid while enemy AI also changes.
-
 Panic was made for Advanced Seminar in Game Programming while studying abroad in Montreal.
+
+Panic is a 2D, top-down strategy game with horror elements. The player moves around on a grid avoiding enemies and collecting keys to escape each level. Getting seen by an enemy causes the player to enter Panic Mode. In Panic Mode, the player is freed from the constraints of the grid while enemy AI also changes.
 
 ![Panic Gif](https://media.giphy.com/media/4T7zmKRa65oUFW8cJ5/giphy.gif)
 
@@ -51,7 +51,7 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 * Team size: 8
 * 2018
 
-Made for Production 2, spring 2018 semester. Currently under development. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
+Made for Production 2, spring 2018 semester by MilkShed Games. Currently under development. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
 
 RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
 
