@@ -8,6 +8,27 @@
 ---
 ---
 
+### RV Punch
+
+* Racing
+* Made in Unity 2017.3
+* Team size: 8
+* 2018
+
+* Won Audience Award at Champlain Gamesfest 2018
+* Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018
+
+Made for Production 2, spring 2018 semester by MilkShed Games. Currently under development. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
+
+RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
+
+![RV Punch Trailer Gif](https://media.giphy.com/media/9VtKPiHFVRsvIM8RPN/giphy.gif)
+
+View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
+
+---
+---
+
 ### Panic
 
 * Strategy
@@ -40,24 +61,6 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 ![Opportunity Knocks Gif](https://media.giphy.com/media/SiJYIT5CxwITBRDcCv/giphy.gif)
 
 [Download this game on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks)
-
----
----
-
-### RV Punch
-
-* Racing
-* Made in Unity 2017.3
-* Team size: 8
-* 2018
-
-Made for Production 2, spring 2018 semester by MilkShed Games. Currently under development. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
-
-RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
-
-[RV Punch Trailer](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
-
-![RV Punch Gif](https://media.giphy.com/media/7w4u8IjWbxuj3vWyKL/giphy.gif)
 
 ---
 ---
