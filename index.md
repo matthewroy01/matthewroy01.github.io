@@ -55,6 +55,8 @@ Made for Production 2, spring 2018 semester by MilkShed Games. Currently under d
 
 RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
 
+[RV Punch Trailer](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
+
 ![RV Punch Gif](https://media.giphy.com/media/7w4u8IjWbxuj3vWyKL/giphy.gif)
 
 ---
