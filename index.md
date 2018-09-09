@@ -15,7 +15,6 @@
 * Team size: 8
 * 2018
 
-
 * Won Audience Award at Champlain Gamesfest 2018
 * Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018
 
