@@ -5,9 +5,9 @@
 
 ### [About Me Page](https://matthewroy01.github.io/aboutme)
 
-### [Creating My Game Engine Blog](https://matthewroy01.github.io/enginesblog)
+### [My Game Engine Blog](https://matthewroy01.github.io/enginesblog)
 
-### [Senior Capstone Project Blog](https://matthewroy01.github.io/capstoneblog)
+### [Senior Capstone Blog](https://matthewroy01.github.io/capstoneblog)
 
 ---
 ---
