@@ -11,6 +11,30 @@
 ---
 
 ## September 15th, 2018
+### The Original Ten Ideas (part 2, the top three)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From our top ten ideas, we were able to decide on our three favorites and expanded on each of them. They will be what we move forward with when prototyping.
+
+**Rhythm RPG**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A turn-based RPG where your stereotypical party members are actually orchestra members and you perform quick rhythm games to fight. We chose this game because it feels unique, and that we have a lot of unique ideas for characters and mechanics in the game. With having each character playing a different instrument, we came up with the idea of having each character dress in armor similar to their instrument. Additionally, we think having each instrument uniquely weaponized would be an interesting way to explain how playing the music also hurts enemies.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One unique character we've thought of is an organ player who actually rides the organ like a vehicle. The organ's bench would be attached to the organ itself, and the instrument itself would have a steam engine installed, with wheels similar to that of a steam locomotive train, and steam would be expelled from the pipes in the pipe organ as exhaust. The player himself would be some kind of a cross between a Dracula style organist, hopefully with some elements of a train conductor attached, but we're currently concepting this character as of now.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So far in terms of gameplay, I'm feeling good enough about how we've described the flow of combat enough to begin prototyping it. So far I've done research into how to make a rhythm game in Unity and found information about using the audio system's timer to make sure the timing can be as accurate as possible. I've prototyped as simple beat that checks to see if you've pressed the button so the next step will be to expand on that concept and get it into a playable loop.
+
+**Creepy Siri**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+**Short Giraffe**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+---
+---
+
+## September 15th, 2018
 ### The Original Ten Ideas (part 1, the cuts)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our team was able to brainstorm a list of ten favorite ideas from a few different brainstorming sessions. Here's a list of the ideas that didn't make the cut and my thoughts on them.
