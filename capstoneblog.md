@@ -11,9 +11,9 @@
 ---
 
 ## September 15th, 2018
-### The Original Ten Ideas
+### The Original Ten Ideas (part 1, the cuts)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our team was able to brainstorm a list of ten favorite ideas from a few different brainstorming sessions. Here's a list of them and my thoughts on each of them.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our team was able to brainstorm a list of ten favorite ideas from a few different brainstorming sessions. Here's a list of the ideas that didn't make the cut and my thoughts on them.
 
 **Gardening Robot**
 
@@ -22,3 +22,7 @@
 **Cooking Mama at Gunpoint**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The idea with a name as strange as it is misleading. Cooking Mama at Gunpoint was an idea derived from how in the Cooking Mama series of game, there isn't really a harsh consequence for failure, so what if the stakes were raised? This idea eventually evolved into a 3D platformer where you play as an upcoming chef who is being threatened by a customer with unreasonable requests. We experimented with the character using various abilities based around the chef's toque, but were unable to come up with a main mechanic we really liked. This idea eventually got scrapped due to it not being super unique.
+
+**Neon Gladiator**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neon Gladiator is the only multiplayer game that made it onto our list. Players would have moved along tracks, collecting weapons, and trying to time their attacks as they pass each other at hight speeds. I think this idea would have been fun to make and play, but overall we dropped the idea since the majority of the team didn't want to work on another multiplayer game featuring vehicles (three of four of the team worked on [RV Punch](https://www.youtube.com/watch?v=mn1Y-4wrkfY) in the previous year's production).
