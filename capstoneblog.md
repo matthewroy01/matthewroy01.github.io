@@ -3,6 +3,8 @@
 ---
 ---
 
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+
 ## Introduction
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am Matthew Roy, and as of starting this blog, I am a fourth year student at Champlain College. I will be writing this blog to keep a record of my Senior Capstone project.
