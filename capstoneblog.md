@@ -25,11 +25,17 @@
 
 **Creepy Siri**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A narrative based game where you control a AI inside a smart phone with the goal of using apps to solve a problem such as collecting a password or code. This idea isn't as fleshed out as I'd like it to be, but so far we've imagined having a split user interface where one side of the screen is your phone display, and the other side is a top down view of the house. You'd then have to use your apps to distract or lure your owner. For example, if you know your owner likes TV, use a security app to turn on the TV to distract them or if you need facial recognition, try getting someone to take you into a room where there's a photograph of that person on the wall.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So far the only protoyping of this idea that has gotten done is a completely text based prototype made in Twine by one of our designers. The prototype really sets the mood for the idea and puts a lot of emphasis on the "Creepy" part of "Creepy Siri".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One risk we've considered in this game is the art being too simple. Our artist is mainly a 3D artist and doing a game where phone and app interfaces are integral to the gameplay could be a problem. Not to mention, even if there is a 3D view of a house to look at, simple furniture isn't difficult to model.
 
 **Short Giraffe**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Giraffe is a physics based puzzle platformer where you control a short giraffe who has the ability to extend and retract its neck. Gameplay focuses on being able to extend and then bend your neck to create any shape. For example, making the neck into a hook shape to swing on a branch or pole or stiffening your neck and falling it over a gap to somersault over to the other side.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This idea is the one I've thought about the most so far while prototyping. I met with one of my professors to pitch the idea and get advice on where to start and from that meeting, my first goal is to implement a custom forward or inverse kinematics system to essentially simulate a pipe cleaner. My hope is that if we can get the rotation of the neck to feel good, we'll be able to test the mechanics in a sandbox area and see what minor tweaks we'll need to make to make it fun.
 
 ---
 ---
