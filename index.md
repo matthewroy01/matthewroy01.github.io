@@ -88,24 +88,6 @@ The project uses a code base we wrote throughout the semester, Allegro 5, and va
 ---
 ---
 
-### Eye Lasers
-
-* First Person Shooter
-* Made in Unity 2018
-* Team size: 2 (Game Jam)
-* 2018
-
-Eye Lasers was made in the Game Maker's Toolkit Game Jam in 2018 with the theme of "GENRE, but you can't MECHANIC".
-
-Eye Lasers is a two player competitive first person shooter without shooting, instead focusing on movement and staying behind cover. Rather than firing guns, you deal damage to your opponent if they are in your line of sight.
-
-![Eye Lasers Gif](https://img.itch.zone/aW1hZ2UvMzAwNzg0LzE0NzEyOTIucG5n/original/CBvOa3.png)
-
-[Download this game on Itch.io](https://matthewroy.itch.io/eye-lasers)
-
----
----
-
 ### Battle Beetles
 
 * 3D Fighter
