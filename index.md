@@ -57,32 +57,16 @@ Panic is a 2D, top-down strategy game with horror elements. The player moves aro
 
 * Action Game
 * Made in Unity 2017.3
-* Team size: 4
+* Team size: 4 (Game Jam)
 * 2018
 
 Opportunity Knocks is a game made for the Global Game Jam 2018 with the theme of "transmission".
 
-Opportunity Knocks has the player controlling a Mars rover remotely from a computer, but the connection is terrible! Use the boost button to increase the framerate but keep an eye on how much power in remaining or else it's game over. The game is played with the num pad where the 3 left and 3 rights buttons control the wheels.
+Opportunity Knocks has the player controlling a Mars rover remotely from a computer, but the connection is terrible! Use the boost button to increase the framerate but keep an eye on how much power is remaining or else it's game over. The game is played with the num pad where the 3 left and 3 rights buttons control the wheels.
 
 ![Opportunity Knocks Gif](https://media.giphy.com/media/SiJYIT5CxwITBRDcCv/giphy.gif)
 
 [Download this game on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks)
-
----
----
-
-### Battle Beetles
-
-* 3D Fighter
-* Made in Unity 5
-* Team size: 4
-* 2017
-
-A summer project, this game is a work in progress.
-
-Battle Beetles aims to capture the sort of over the top scenarios you'd think up as a kid while playing with toys. Battle Beetles is a 3D arena fighter where mechanical beetles use their horns, antennae, and more to come out on top.
-
-![Battle Beetles Gif](https://media.giphy.com/media/23ZJNCnFnwTs6HKTbC/giphy.gif)
 
 ---
 ---
@@ -100,3 +84,37 @@ Created with [Nicholas Robbins](https://www.linkedin.com/in/nicholas-robbins-pro
 The project uses a code base we wrote throughout the semester, Allegro 5, and various game programming patterns like Game Loop and a Component System.
 
 ![Zelda Gif](https://media.giphy.com/media/OjI22jqHhPmpszPrBD/giphy.gif)
+
+---
+---
+
+### Eye Lasers
+
+* First Person Shooter
+* Made in Unity 2018
+* Team size: 2 (Game Jam)
+* 2018
+
+Eye Lasers was made in the Game Maker's Toolkit Game Jam in 2018 with the theme of "GENRE, but you can't MECHANIC".
+
+Eye Lasers is a two player competitive first person shooter without shooting, instead focusing on movement and staying behind cover. Rather than firing guns, you deal damage to your opponent if they are in your line of sight.
+
+![Eye Lasers Gif](https://img.itch.zone/aW1hZ2UvMzAwNzg0LzE0NzEyOTIucG5n/original/CBvOa3.png)
+
+[Download this game on Itch.io](https://matthewroy.itch.io/eye-lasers)
+
+---
+---
+
+### Battle Beetles
+
+* 3D Fighter
+* Made in Unity 5
+* Team size: 4
+* 2017
+
+A summer project, this game is a work in progress.
+
+Battle Beetles aims to capture the sort of over the top scenarios you'd think up as a kid while playing with toys. Battle Beetles is a 3D arena fighter where mechanical beetles use their horns, antennae, and more to come out on top.
+
+![Battle Beetles Gif](https://media.giphy.com/media/23ZJNCnFnwTs6HKTbC/giphy.gif)
