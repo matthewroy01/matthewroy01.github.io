@@ -34,9 +34,19 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our first prototype is the one we showed off in class and also the one we brought to QA. It's based around having a tower of giraffe "neck joints" that you can scroll up and down and rotate at will in a fashion similar to Forward Kinematics. Our plan with this prototype is to iterate on it both in convenience of mechanics and in level design.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite how we were feeling after the class we presented the Rigid Giraffe prototype, pretty much all of the testers who played the game at QA enjoyed it and had fun. Any negative feedback we got was expected and mostly related to the controls being cumbersome. Below is a gif of the Giraffe's neck rotation in the build we brought to QA.
+
 ![Rigid Giraffe Gif](https://media.giphy.com/media/1xNmkGTSxvv5CM98bF/giphy.gif)
 
+**Springy Giraffe**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our second prototype...
+
 ![Broken Springs Gif](https://media.giphy.com/media/1jkVayv069itYlOA2U/giphy.gif)
+
+**Grid-Based Giraffe**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our third prototype...
 
 ---
 ---
