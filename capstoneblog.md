@@ -3,9 +3,32 @@
 ---
 ---
 
+### [About Me Page](https://matthewroy01.github.io/aboutme)
+
+### [Projects](https://matthewroy01.github.io/index)
+
+### [My Game Engine Blog](https://matthewroy01.github.io/enginesblog)
+
+---
+---
+
 ## Introduction
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am Matthew Roy, and as of starting this blog, I am a fourth year student at Champlain College. I will be writing this blog to keep a record of my Senior Capstone project.
+
+---
+---
+
+## September 26th, 2018
+### Giraffe: Stretched Thin
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From our top three ideas, we've decided to go with Short Giraffe as our main idea. To recap, the other two ideas we were juggling were Creepy Siri and Rhythm RPG. Creepy Siri was cut due to us not really being able to focus the gameplay other than the idea of playing as an AI who is trying to collect information from its owner by using various apps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rhythm RPG was cut for a more production related reason. After the last class and the feedback we got, we felt a little lost as to where to go next. Instead of using up more time trying to prototype Rhythm RPG, we decided we would just go forward prototyping Short Giraffe to keep our focus in one idea rather than spreading our resources across two of them.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that said, we are prototyping three different versions of Short Giraffe for our QA requirement and to see what works best, all with slight versions of our short/tall/stretchy/bendy giraffe.
+
+![alt text](https://media.discordapp.net/attachments/417792767813615618/491738524073328650/Giraffe_ExtendNeck.png?width=945&height=630 "Short Giraffe, Stretchy Concept Art")
 
 ---
 ---
