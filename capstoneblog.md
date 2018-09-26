@@ -28,7 +28,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that said, we are prototyping three different versions of Short Giraffe for our QA requirement and to see what works best, all with slight versions of our short/tall/stretchy/bendy giraffe.
 
-![alt text](https://media.discordapp.net/attachments/417792767813615618/491738524073328650/Giraffe_ExtendNeck.png?width=945&height=630 "Short Giraffe, Stretchy Concept Art")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_0.png "Short Giraffe, Stretchy Concept Art")
+
+**Rigid Giraffe**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our first prototype is the one we showed off in class and also the one we brought to QA. It's based around having a tower of giraffe "neck joints" that you can scroll up and down and rotate at will in a fashion similar to Forward Kinematics. Our plan with this prototype is to iterate on it both in convenience of mechanics and in level design.
+
+![Broken Springs Gif](https://media.giphy.com/media/1jkVayv069itYlOA2U/giphy.gif)
 
 ---
 ---
