@@ -34,7 +34,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our first prototype is the one we showed off in class and also the one we brought to QA. It's based around having a tower of giraffe "neck joints" that you can scroll up and down and rotate at will in a fashion similar to Forward Kinematics. Our plan with this prototype is to iterate on it both in convenience of mechanics and in level design.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite how we were feeling after the class we presented the Rigid Giraffe prototype, pretty much all of the testers who played the game at QA enjoyed it and had fun. Any negative feedback we got was expected and mostly related to the controls being cumbersome. Below is a gif of the Giraffe's neck rotation in the build we brought to QA.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite how we were feeling after the class we presented the Rigid Giraffe prototype, pretty much all of the testers who played the game at QA enjoyed it and had fun. Any negative feedback we got was of things we expected and mostly related to the controls being cumbersome. Below is a gif of the Giraffe's neck rotation in the build we brought to QA.
 
 ![Rigid Giraffe Gif](https://media.giphy.com/media/1xNmkGTSxvv5CM98bF/giphy.gif)
 
@@ -42,13 +42,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our second prototype comes from advice given to us by Sajid, our programmer faculty for our section of capstone. He suggested having the giraffe's neck be more springy rather than rigid to reflect that it's an actual living creature rather than something actually rigid like a toy or robot. Sajid gave us the example of World of Goo, where structures connected by joints are bouncy rather than stuck in place. Based off of this, I spent a while looking into Unity's built in joints, which was a mistake since it ended up not being what I wanted. Instead, I went to talk to one of the other programmer faculty, Dan, to get the physics and math for springs.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Progress on creating a spring simulation has worked decently so far. Seen in the gif below, it's not working perfectly yet. The spring on the top seems to simulate correctly, but below it, springs that are connected to each seem to accumulate energy infinitely and fly off into space. I plan on continuing to work on this prototype as a tool for our designers to use if we want to do something along these lines.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Progress on creating a spring simulation has worked decently so far. Seen in the gif below, it's not working perfectly yet. The spring on the top seems to simulate correctly, but below it, springs that are connected to each seem to accumulate energy infinitely and fly off into space. I plan on continuing to work on this prototype as a tool for our designers to use if we want to do something along these lines (since originally writing this, springs are now working correctly!).
 
 ![Broken Springs Gif](https://media.giphy.com/media/1jkVayv069itYlOA2U/giphy.gif)
 
 **Grid-Based Giraffe**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our third prototype is based around a grid and really embraces the idea of our giraffe being short. The giraffe starts as short, but then the player can guide the giraffe's head along a grid to stretch it out. This idea is similar to Rigid Giraffe in that the Giraffe's neck stays stiff, but with more convenient and accessable control. The way we've described the control is that it's similar to how certain cell phones unlock by inputting the correct grid pattern.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our third prototype is based around a grid and really embraces the idea of our giraffe being short. The giraffe starts as short, but then the player can guide the giraffe's head along a grid to stretch it out. This idea is similar to Rigid Giraffe in that the Giraffe's neck stays stiff, but with more convenient and accessable controls. The way we've described the control is that it's similar to how certain cell phones unlock by inputting the correct grid pattern.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I believe that this prototype has the most potential at the moment, since it combines the ideas from our original Rigid Giraffe prototype with additional restrictions that will help narrow down level design without having to completely rely on physics for puzzle success.
 
