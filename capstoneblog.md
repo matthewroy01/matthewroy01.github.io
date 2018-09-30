@@ -26,6 +26,24 @@
 
 ![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/spring_system_inspector.png "Spring System Inspector")
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Springs have been simplified into one list, and our spring physics related constants, C and K, are now located here and effect all springs rather than having to change each one manually. Additionally, some debug options are included at the bottom to show midpoints between each spring or lines to highlight.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the summer, I worked on a personal project based on the original NES Kid Icarus called Kid Icarus: Infinite Underworld. It's a 2D platformer with random level generation and one thing I tried out from [this tutorial by Brackeys](https://www.youtube.com/watch?v=B_Xp9pt8nRY) is a level creator pipeline.
+
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_map0.png "Infinite Underworld level 0")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using a simple sprite with minimal colors...
+
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_colors.png "Infinite Underworld colors")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...you can look through the image pixel by pixel, and spawn different blocks based on the color...
+
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_mapresult.png "Infinite Underworld final result")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...which creates the final result of a modular level.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As mentioned previously, making tools for the team to use seems to be the general concensus when it comes to the role of a programmer, and so as I more forward through working on capstone and Short Giraffe, I want to make sure I continue to include designer friendly tools and code so that anyone can go into the project and create or change things. In the context of Short Giraffe I believe this also applies to the art as we eventually try to get a 3D model skinned along our giraffe's neck joints.
+
 ---
 ---
 
