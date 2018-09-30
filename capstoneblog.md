@@ -19,6 +19,16 @@
 ---
 ---
 
+## September 30th, 2018
+### My Role as a Programmer
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From going to discipline reviews and just talking to the programming faculty, something that's really been reinforced for me this semester is my role as programmer. According to my professors, it's not necessarily my role to be creating prototypes all the time; that's the designer's job. Instead, I should be creating things to help make the designer's job easier. For example, the first thing I did at the start of sprint four was take my spring physics code, move it from two scripts to one, and make it much more readable in Unity's inspector. The result was this:
+
+
+
+---
+---
+
 ## September 26th, 2018
 ### Giraffe: Stretched Thin
 
