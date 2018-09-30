@@ -26,7 +26,7 @@
 
 ![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/spring_system_inspector.png "Spring System Inspector")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Springs have been simplified into one list, and our spring physics related constants, C and K, are now located here and effect all springs rather than having to change each one manually. Additionally, some debug options are included at the bottom to show midpoints between each spring or lines to highlight.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Springs have been simplified into one list, and our spring physics related constants, C and K, are now located here and effect all springs rather than having to change each one manually. Additionally, some debug options are included at the bottom to show midpoints between each spring or lines to highlight where each spring is in space.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the summer, I worked on a personal project based on the original NES Kid Icarus called Kid Icarus: Infinite Underworld. It's a 2D platformer with random level generation and one thing I tried out from [this tutorial by Brackeys](https://www.youtube.com/watch?v=B_Xp9pt8nRY) is a level creator pipeline.
 
@@ -36,7 +36,7 @@
 
 ![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_colors.png "Infinite Underworld colors")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...you can look through the image pixel by pixel, and spawn different blocks based on the color...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...you can iterate through the image pixel by pixel, and spawn different blocks based on the color...
 
 ![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_mapresult.png "Infinite Underworld final result")
 
