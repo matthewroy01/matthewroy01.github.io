@@ -41,7 +41,7 @@
 * **Quicksand**, a timed scenario where you have to pull yourself out before it's too late.
 * The **Meerkats**, the enemy we want to use for the story. The Meerkats create stealth sections where you have to use the mechanics of the game to not get caught in their lines of sight.
 
-I'm hoping we'll be able to work on these and combine them in different ways to create some fun and interesting levels.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm hoping we'll be able to work on these and combine them in different ways to create some fun and interesting levels.
 
 ---
 ---
