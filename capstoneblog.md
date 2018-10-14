@@ -20,9 +20,9 @@
 ---
 
 ## October 14th, 2018
-### The "Culmination" of Unity Knowledge
+### Developing the Concept
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Following up on the previous post, here's how I plan to implement a few of the mechanics I listed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Following up on the previous post, here's how I plan to implement some of the mechanics I listed.
 
 **Underwater Sections**
 
@@ -32,9 +32,19 @@
 
 **A Stamina Mechanic (and other things)**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something I think I've slowly learned over multiple projects is how to cleanly manage player-related code. It's not a good idea to throw all the code related to the player into one script, there are ways to split up the different parts of it and still have them communicate. This is what the player object from Kid Icarus: Infinite Underworld looks like
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something I think I've slowly learned over multiple projects is how to cleanly manage player-related code; it's not a good idea to throw all the code related to the player into one script. There are ways to split up the different parts of it and still have them communicate.
+
+This is what the player object from Kid Icarus: Infinite Underworld looks like:
 
 ![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_playerInspector.png "Infinite Underworld's player object")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see, there are quite a few Player scripts attached to this object all with different functionalities meant to decouple and organize them. For example, the sounds played when shooting are not handled in *PlayerShoot* but in *PlayerAudio*. At the same time, health stored in *PlayerCollision* isn't also displayed there, it's displayed in *PlayerUI*.
+
+Here is a script on the player in [RV Punch](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/index.md#rv-punch):
+
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/rvpunch_playerStatus.png "RV Punch Player Status")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *PlayerStatus* contains a (rather messy) list of data for the player to hold that can't be stored anywhere else. For Short Giraffe, I want to combine the ideas I used in Infinite Underworld and RV Punch. I want to have lots of Player Scripts to help organize the code, but at the same time I want to make use of a *PlayerStatus*. The *PlayerStatus* script can also hold on to all of the references to the other scripts. So for example, instead of *PlayerCollision* and *PlayerShoot* needing access to *PlayerUI*, they can just include *PlayerStatus* which holds all the references to the other player scripts.
 
 ---
 ---
