@@ -19,6 +19,24 @@
 ---
 ---
 
+## October 14th, 2018
+### The Culmination of Unity Knowledge
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Following up on the previous post, here's how I plan to implement a few of the mechanics I listed.
+
+**Underwater Sections**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've started working on changing how the giraffe controls while it's underwater already. However, I realized something after I saw the blue spheres we were using for testing fall into the "water" in the Unity scene: it would probably be useful to have one script that can make any object act as if it were underwater. So, instead of writing a special case inside the giraffe's movement script, my plan is to write a script that will look for a Rigidbody component attached to its object and handle everything related to being "underwater" from checking if the object is actually underwater to changing its physics.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm hoping this will prematurely solve any issues where our designers want to create more complicated puzzles underwater, so that any object can act as if it's underwater while moving around. Additionally, I'm hoping I'll be able to do something similar when I tackle the **Quicksand** mechanic later on. Somebody once told me it's a programmer's job to predict the future so hopefully these ideas will come to fruition.
+
+**A Stamina Mechanic (and other things)**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something I think I've slowly learned over multiple projects is how to cleanly manage player-related code. It's not a good idea to throw all the code related to the player into one script, there are ways to split up the different parts of it and still have them communicate.
+
+---
+---
+
 ## October 13th, 2018
 ### Concept Established
 
