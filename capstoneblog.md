@@ -22,18 +22,25 @@
 ## October 13th, 2018
 ### Concept Established
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As of writing this, not only has our professor told us our team is falling behind, I've heard from another professor that he had not only heard that a lot of teams are behind, but specifically about our team. I don't what specifically he had heard... but here's how we're catching up.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As of writing this, not only has our professor told us our team is falling behind, I've heard from another professor that he had not only heard that a lot of teams are behind, but specifically about our team. I don't know what specifically he had heard... but here's how we're catching up.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During our latest class, we gave our first formal presentation that wasn't just an update; we attempted to touch on all the things required under "Establising the Concept" in the syllabus. Most importantly is our game's concept and build. From taking our different builds to QA, we've settled on combining some of the ideas from each. We want the giraffe's neck to be more limited as to what it can do (I.E. being more sturdy) like in our Sturdy Giraffe prototype, we want the controls to be intuitive like in the Grid-Based Giraffe prototype, and if possible, we want the visuals to be goofy like in the Springy Giraffe prototype (see Giraffe: Stretched Thin for more information on each individual prototype). The result is a giraffe who embraces the name of the game, being short by default with the abilitiy to extend its neck in any direction a set distance at a time.
 
 ![alt text]( "Neck Retraction")
 ![alt text]( "Backwards Neck Retraction")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the things that is unique about this version of Short Giraffe is the retraction mechanic. In the Sturdy Giraffe prototype, players could lift their giraffe up off the ground and around an object by continuously winding the neck around it. To create the same situation in this version, not only can the player retract their giraffe's neck from the top down, they can retract the neck, lifting the bod up towards the head (seen in the gifs above). This allows players to wrap their neck around an object and then backwards retract, allowing the giraffe to swing on objects like before.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the things that is unique about this version of Short Giraffe is the retraction mechanic. In the Sturdy Giraffe prototype, players could lift their giraffe up off the ground and around an object by continuously winding the neck around it. To create the same situation in this version, not only can the player retract their giraffe's neck from the top down, they can retract the neck, lifting the body up towards the head (seen in the gifs above). This allows players to wrap their neck around an object and then backwards retract, lifting the body up, and allowing the giraffe to swing on objects like before.
 
 ![alt text]( "Lifting Self")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something else that has changed (that is much less important but I want to talk about as the programmer) is the center of mass on the giraffe. One problem that would occur in previous prototypes is that the giraffe would tip over if the neck was leaning too much in one direction or another. I added a mechanic where you could hold a button to have the giraffe hold fast to prevent tipping over. In the new prototype, I figured out you could change the position of center of mass of Unity's Rigidbody component, so by setting the center to the position of the giraffe, it no longer tips over (if you don't manually set the center of mass, it will constantly try to update to the center of the object, including the neck pieces).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something else that has changed (that is much less important but I want to talk about as the programmer) is the center of mass on the giraffe. One problem that would occur in previous prototypes is that the giraffe would tip over if the neck was leaning too much in one direction or another. I added a mechanic where you could hold a button to have the giraffe hold fast to prevent tipping over. In the new prototype, I figured out you could change the position of center of mass of Unity's Rigidbody component, so by setting the center to the position of the giraffe, it no longer tips over (if you don't manually set the center of mass, it will constantly try to update to the center of the object, including the neck pieces, causing it to tip over if the neck is too far in either direction). In the gif below, it is now much easier to complete this ball puzzle since you don't fall into the pit for leaning over it.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moving forward, the team has set its eyes upon the main few puzzle mechanics we want to work with and try out for our vertical slice. These include:
+* A **stamina mechanic** to limit the time the player is able to keep their neck extended.
+* **Underwater sections**, this way the player has to manage stamina with oxygen.
+* **Quicksand**, a timed scenario where you have to pull yourself out before it's too late.
+* The **Meerkats**, the enemy we want to use for the story. The Meerkats create stealth sections where you have to use the mechanics of the game to not get caught in their lines of sight.
+I'm hoping we'll be able to work on these and combine them in different ways to create some fun and interesting levels.
 
 ---
 ---
