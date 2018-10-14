@@ -20,7 +20,7 @@
 ---
 
 ## October 14th, 2018
-### The Culmination of Unity Knowledge
+### The "Culmination" of Unity Knowledge
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Following up on the previous post, here's how I plan to implement a few of the mechanics I listed.
 
@@ -32,7 +32,9 @@
 
 **A Stamina Mechanic (and other things)**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something I think I've slowly learned over multiple projects is how to cleanly manage player-related code. It's not a good idea to throw all the code related to the player into one script, there are ways to split up the different parts of it and still have them communicate.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something I think I've slowly learned over multiple projects is how to cleanly manage player-related code. It's not a good idea to throw all the code related to the player into one script, there are ways to split up the different parts of it and still have them communicate. This is what the player object from Kid Icarus: Infinite Underworld looks like
+
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_playerInspector.png "Infinite Underworld's player object")
 
 ---
 ---
