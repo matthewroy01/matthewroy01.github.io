@@ -19,6 +19,26 @@
 ---
 ---
 
+## November 3rd, 2018
+### A Follow Up on "Underwater Sections"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the previous post, titled "Developing the Concept", I described how I would be handling underwater sections of Short Giraffe. I talked about having a script that you could put on any physics object to make it able to act as if it was underwater, and while that is sort of how I did it, I handled it a little bit differently.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While working on creating the script for underwater physics, I realized that while it worked for most objects, the way the player's movement works was preventing the water physics from acting as expected. The player uses two different types of movement control, one while in the air and one while on the ground which allows the player to swing when suspended around something while having the movement still feel snappy while on the ground. With this problem, I added a special case to the underwater physics script that checks to see if the *PlayerMovement* script is attached to the same object, and if it is, the water physics will know to do something different for the player.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the water physics behaviour was completed, I let one of my designers make another version of it to be used with quicksand. This worked out pretty well, but I asked myself, why have two scripts that essentially do the same thing? Is there a more efficient way to do this? As it turns out, there is using Scriptable Objects.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scriptable Objects are special object types in Unity that allow multiple instances that you can store in the Assets folder of your Unity project. Normally, you can right click in the Assets tab to create something, and by writing your own Scriptable Object, you can have them appear too.
+
+![alt text](URL "Custom Short Giraffe Scriptable Objects")
+
+![alt text](URL "The Quicksand Physics Behaviour")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instead of having a *PhysicsWater* and *PhysicsQuicksand* 
+
+---
+---
+
 ## October 14th, 2018
 ### Developing the Concept
 
