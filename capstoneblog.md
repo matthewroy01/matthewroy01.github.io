@@ -30,11 +30,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scriptable Objects are special object types in Unity that allow multiple instances that you can store in the Assets folder of your Unity project. Normally, you can right click in the Assets tab to create something, and by writing your own Scriptable Object, you can have them appear too.
 
-![alt text](URL "Custom Short Giraffe Scriptable Objects")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_scriptable_objects.png "Custom Short Giraffe Scriptable Objects")
 
-![alt text](URL "The Quicksand Physics Behaviour")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_example_physics_behaviour.png "The Quicksand Physics Behaviour")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instead of having a *PhysicsWater* and *PhysicsQuicksand* 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instead of having a *PhysicsWater* and *PhysicsQuicksand*, the variables (such as how much to change gravity and friction) are stored inside a scriptable object called Physics Bheaviour (seen above using the Quicksand Behaviour as an example). Then, as a replacement for how the user used to be able to put the physics scripts on any object to make it work, there is now a *PhysicsManager* script. The *PhysicsManager* can be placed on any object with a physics component but stores a list of the Physics Behaviours that it will loop through and try to apply similar to how each physics script would originally apply effects to the object it was attached to.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The last problem I came across was the two behaviours (water and quicksand) cancelling each other out since when one wasn't detected, it would try to reset the physics values back to the default. To counteract this, I've implemented a small restriction that essentially only allows one physics behaviour to be active at the same time. In other words, being in water and quicksand at the same time doesn't stack up and make the player move twice as slow.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From my original ideas, the "Underwater Sections" have improved quite a bit and gotten very modular if we plan on adding any additional types of movement restrictions (or maybe something that makes the player move faster?). I recommend anyone working in Unity to look into [Scriptable Objects](https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/scriptable-objects). While they're not necessarily good in every situation, they can be useful for having multiples of the same thing where the data can change (instead of having multiple similar prefabs). YouTuber Brackeys gives the example of a Hearthstone card in [his tutorial](https://www.youtube.com/watch?v=aPXvoWVabPY). This with the upcoming [Nested Prefabs](https://unity3d.com/prefabs) feature in Unity will allow for some insane flexibility.
 
 ---
 ---
