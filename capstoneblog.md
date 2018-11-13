@@ -63,6 +63,7 @@ Here is a list describing how the neck segments are stored as preparation for th
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are two scenarios where the neck needs to be reset. The first is when the player dies (falling into a pit for example). When the player dies, a "RetractAll" function is called that deletes all the objs from the list of segments, clears the list, and resets other values such as the reticle's position and previous segment. The second is when the player presses the Quick Retract button. This works similarly but uses a Coroutine to perform this slower than RetractAll's instantaneous reaction, essentially waiting a short amount of time between deleting segments.
 
 **The Giraffe's Head**
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, the giraffe's head which sits at the top of the neck the player has created. This neck simply moves to wherever the last segment in the giraffe's neck is. Additionally, it rotates to look in the direction of the end of the neck (previously, the head would be rigid all the time, which looked pretty weird). It may also be worth noting that the head acts uniquely in that it has its own collision for things like eating leaves or keeping track of Agent G's current oxygen while underwater, making the position of the head pretty important.
 
 ---
