@@ -16,6 +16,56 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am Matthew Roy, and as of starting this blog, I am a fourth year student at Champlain College. I will be writing this blog to keep a record of my Senior Capstone project.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Giraffe is a 2D physics-based platformer starring a short, cyborg, secret agent giraffe named Agent G that has the unique ability to extend and retract its neck. By extending its neck, Agent G can swing, swim, and solve its way through levels to help apprehend the Meerkat menace.
+
+---
+---
+
+## November 12th, 2018
+### A Review of Short Giraffe's Neck
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most important part of Short Giraffe is the neck mechanic. In this post, I want to recap the neck mechanic and how it works in a handful of different sections. As we are quickly approaching presentations next week, we've officially decided how the neck works and how it looks so I felt it would be a good time to review the mechanic.
+
+**Choosing a Direction**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This particular mechanic has been in the game for a few weeks, but the way you actually choose a direction to extend your neck in has changed since the last time I talked about it. Instead of using the right stick to "aim" and then pressing a button to extend a segment one at a time, it's much more smooth and automated. Now, an invisible reticle starts at the position of the Giraffe's body, and can be moved with the right stick. When the reticle moves far enough from its starting point, a new neck segment is spawned. It feels a lot like drawing a line with the right stick and removes the need for rapid button pressing.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here is a gif of a visible reticle for demonstration purposes:
+
+Here is a list describing how the neck segments are stored as preparation for the next sections:
+* each Neck Segment is stored in a C# List
+* this list is of a custom struct called "Segment"
+* this struct contains two members, a GameObject (obj) and a Vector3 (origin)
+  * obj is a reference to the actual neck object itself, used for deleting the segment later
+  * origin is the origin point of the segment, used for convenience during calculations
+* in addition to the list, the previous and current segments are used when spawning new segments for convenience (the previous segment may actually be the giraffe's body in the case that there is less than one segment for example)
+
+**Extending the Neck**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When the neck segments are spawned, two objects are instantiated. One is a sphere that is spawned at the location of the reticle. Then, using the newly spawned segment (the current segment) and the previous segment, another object, a box, is spawned at the midpoint between the two. The box is then stretched the distance between the two segments to serve as the collider for the neck. The box is made a child of the sphere and the sphere is saved in the list as obj where the sphere's position relative to the giraffe's body is saved in origin.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something new that has been added recently is some slight tapering. The more neck segments are spawned, the smaller the sphere and box objects of the segments get. Additionally, the sphere and box are moved slightly outwards towards the camera as more segments are spawned to prevent the models from z fighting.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The "sphere" and "box" parts that make up the segments now come together to create Agent G's current look in the game:
+
+**Retracting the Neck**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retracting the neck is fairly straight forward. As long as the player holds the button down, neck retraction will attempt to take place. All that happens is that the obj found in the list of neck segments is deleted and then that element is removed from the list. Neck retraction is on a timer for the sake of not looking too fast as well as allowing precision for small adjustments to the neck.
+
+**Retracting Backwards**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The "Backwards Retract" in Short Giraffe describes when the giraffe's body is pulled towards the head rather than the head being pulled back towards the body. This works similarly to the normal retraction, but deletes the obj and removes the neck segment from the beginning of the list instead of the end.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also required to allow backwards retraction is a series of raycasts. These raycasts are fired from the first neck segment to the last, second segment to the second last, etc looking to see if they intersect with the ground. This essentially checks if the neck is wrapped around something. This prevents players from crossing gaps and flying across levels like was previously possible in eariler versions of Short Giraffe.
+
+**Resetting the Neck**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are two scenarios where the neck needs to be reset. The first is when the player dies (falling into a pit for example). When the player dies, a "RetractAll" function is called that deletes all the objs from the list of segments, clears the list, and resets other values such as the reticle's position and previous segment. The second is when the player presses the Quick Retract button. This works similarly but uses a Coroutine to perform this slower than RetractAll's instantaneous reaction, essentially waiting a short amount of time between deleting segments.
+
+**The Giraffe's Head**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, the giraffe's head which sits at the top of the neck the player has created. This neck simply moves to wherever the last segment in the giraffe's neck is. Additionally, it rotates to look in the direction of the end of the neck (previously, the head would be rigid all the time, which looked pretty weird). It may also be worth noting that the head acts uniquely in that it has its own collision for things like eating leaves or keeping track of Agent G's current oxygen while underwater, making the position of the head pretty important.
+
 ---
 ---
 
@@ -30,11 +80,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scriptable Objects are special object types in Unity that allow multiple instances that you can store in the Assets folder of your Unity project. Normally, you can right click in the Assets tab to create something, and by writing your own Scriptable Object, you can have them appear too.
 
-![alt text](URL "Custom Short Giraffe Scriptable Objects")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_scriptable_objects.png "Custom Short Giraffe Scriptable Objects")
 
-![alt text](URL "The Quicksand Physics Behaviour")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_example_physics_behaviour.png "The Quicksand Physics Behaviour")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instead of having a *PhysicsWater* and *PhysicsQuicksand* 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instead of having a *PhysicsWater* and *PhysicsQuicksand* script, the variables from them (such as how much to change gravity and friction) are stored inside a scriptable object called Physics Bheaviour (seen above using the Quicksand Behaviour as an example). Then, as a replacement for how the user used to be able to put the physics scripts on any object to make it work, there is now a *PhysicsManager* script. The *PhysicsManager* can be placed on any object with a physics component but stores a list of the Physics Behaviours. It will loop through the behaviours and try to apply them similar to how each physics script would originally apply effects to the object it was attached to.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The last problem I came across was the two behaviours (water and quicksand) cancelling each other out since when one wasn't detected, it would try to reset the physics values back to the default. To counteract this, I've implemented a small restriction that essentially only allows one physics behaviour to be active at the same time. In other words, being in water and quicksand at the same time doesn't stack up and make the player move twice as slow.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From my original ideas, the "Underwater Sections" have improved quite a bit and gotten very modular if we plan on adding any additional types of movement restrictions (or maybe something that makes the player move faster?). I recommend anyone working in Unity to look into [Scriptable Objects](https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/scriptable-objects). While they're not necessarily good in every situation, they can be useful for having multiples of the same thing where the data can change (instead of having multiple similar prefabs). YouTuber Brackeys gives the example of a Hearthstone card in [his tutorial](https://www.youtube.com/watch?v=aPXvoWVabPY). This with the upcoming [Nested Prefabs](https://unity3d.com/prefabs) feature in Unity will allow for some insane flexibility.
 
 ---
 ---
