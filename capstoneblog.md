@@ -32,7 +32,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here is a gif of a visible reticle for demonstration purposes:
 
-![alt text](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/img/short_giraffe_reticle.gif "The neck with the reticle visible")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_reticle.gif "The neck with the reticle visible")
 
 Here is a list describing how the neck segments are stored as preparation for the next sections:
 * each Neck Segment is stored in a C# List
@@ -50,7 +50,7 @@ Here is a list describing how the neck segments are stored as preparation for th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The "sphere" and "box" parts that make up the segments now come together to create Agent G's current look in the game:
 
-![alt text](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/img/short_giraffe_cyborg_neck.gif "Cyborg Giraffe Neck with Box and Sphere components")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_cyborg_neck.gif "Cyborg Giraffe Neck with Box and Sphere components")
 
 **Retracting the Neck**
 
