@@ -32,6 +32,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here is a gif of a visible reticle for demonstration purposes:
 
+![alt text](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/img/short_giraffe_reticle.gif "The neck with the reticle visible")
+
 Here is a list describing how the neck segments are stored as preparation for the next sections:
 * each Neck Segment is stored in a C# List
 * this list is of a custom struct called "Segment"
@@ -47,6 +49,8 @@ Here is a list describing how the neck segments are stored as preparation for th
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something new that has been added recently is some slight tapering. The more neck segments are spawned, the smaller the sphere and box objects of the segments get. Additionally, the sphere and box are moved slightly outwards towards the camera as more segments are spawned to prevent the models from z fighting.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The "sphere" and "box" parts that make up the segments now come together to create Agent G's current look in the game:
+
+![alt text](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/img/short_giraffe_cyborg_neck.gif "Cyborg Giraffe Neck with Box and Sphere components")
 
 **Retracting the Neck**
 
