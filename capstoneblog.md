@@ -21,6 +21,22 @@
 ---
 ---
 
+## November ??th, 2018
+### Presentation in Review
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post is a work in progress...
+
+---
+---
+
+## November ??th, 2018
+### The Challenge of Collision
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post is a work in progress...
+
+---
+---
+
 ## November 12th, 2018
 ### A Review of Short Giraffe's Neck
 
