@@ -29,10 +29,32 @@
 ---
 ---
 
-## November ??th, 2018
+## November 20th, 2018
 ### The Challenge of Collision
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post is a work in progress...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Througout the creation of Short Giraffe, having the player collide with things has been important to the gameplay, from detecting if the player is on the ground to collecting items like leaves and the Meerkats. Distinguising the different types of collision has been a challenge. For example, having Agent G be able to collect Meerkats with his neck or head didn't make much sense and took away a lot of the challenge when it came to finding them, having some testers even collect the Meerkats accidentally. Here's some of the ways I tackled the challenge of collision throughout Short Giraffe.
+
+**The First Iteration**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initially, I tackled collision in Short Giraffe with my usual approach of having many player focused scripts separated from one another (see the post titled *Developing the Concept* for more on my approach to player scripts). This worked fine at first with the *PlayerCollision* script simply looking for collision with things like collectables. The problem that showed up however is that using Unity's collision functions like *OnTriggerEnter2D* or *OnCollisionEnter2D* also detects collision with the object's children, meaning that colliders like the ones used for the neck segments also detect the same collision (see the post titled *A Review of Short Giraffe's Neck* for more on how the neck segments are created). This is the reason why the giraffe's neck and head were able to collect the Meerkats.
+
+**The Second Iteration**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to solve the problem of the entire body of the giraffe being treated as a single collideable object, I decided to try to separate them. By using Unity's *Physics2D.OverlapBox* I could check for collision with certain things at certain positions, such as specifically at the position of the giraffe's body or head. I used this to check for the aforementioned collision with Meerkats for the body and to play particles effects for the head like eating leaves and blowing bubbles. This however, wasn't robust enough as the 2D versions of Unity's Overlap functions can only return one collision at a time (the 3D version returns an array of Colliders) meaning that only one collision can take place per frame, and some collisions could be missed at times. Additionally, without adding some messy booleans to check if the head or body had previously collided with something, there isn't an easy way to simulate the normal *OnTriggerEnter2D*, *OnTriggerStay2D*, or *OnTriggerExit2D* that Unity normally uses to detect the frame a collision occured or stopped occuring.
+
+**The Third Iteration**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the third iteration, I combined some of the ideas I've spoken about so far. Rather than keeping the *PlayerCollision* script on the player object, I moved it to the model of the giraffe instead. This breaks the pattern of trying to keep all of the player scripts in one place, but definitely worked better with Unity's collision systems. This allowed collision to take place exclusively on the giraffe's body for things like collecting the Meerkats. I combined this with using the *Physics2D.OverlapBox* for the giraffe's head since its collision is less important and used mostly for visual effects.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that said, I feel like the collision isn't as clean as it could be. I may experiment with having another collision script specifically for the head like the body already uses. Additionally, collision used for hitting checkpoints throughout a level used to take place in an entirely different script altogether called *PlayerRespawn*, and only recently began to be handled by *PlayerCollision* which then sends a meesage to *PlayerRespawn* to update its checkpoint values. I think getting all of the player's collision to a standard will be important for adding anything in the future that requires specific collision detection.
+
+**Bonus: Auto Rotation and Ground Collision**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since the very beginning of working on Short Giraffe, ground detection has been done inside of the *PlayerMovmement2D* using *Physics2D.OverlapCircle* at a set Vector2 (0 on the x and about -1 on the y relative to the player's position). This would always check below the player's position, regardless of the player's rotation meaning that the player could jump if they were upsidedown. This wasn't originally a problem back when Agent G was just an orange rectangle, but it didn't make much sense for Agent G to walk while on his back.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Previously, if Agent G fell onto his back, the player could still move around freely, including jumping, and could hold a button to rotate back to normal. This proved to be pretty glitchy and many players wouldn't even bother to rotate once they learned that controls worked normally even if Agent G was upside down.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This lead to the implementation to the auto rotation mechanic. Now, when the player falls onto their back, they lose control, and if a certain amount of time passes, Agent G will do a little hop and rotate back to default automatically. The collision detection for this was rather difficult. I needed to check if the Giraffe was 1) making contact with the ground, and 2) upside down. The main problem came from the fact that since the branhces Agent G can wrap and swing around also count as "Ground", there is technically a possibility that an auto rotation may take place if Agent G swings closely to a branch. To counteract this, auto rotation can only take place if all the neck segments are retracted. This is under the assumption that if any neck segments are extended, the player is attempting to do something and does not want to get rotated out of nowhere. Checking if Agent G is upsidedown is relatively easy on the other hand, just needing to check if the absolute value of Agent G's z rotation is greater than 0.71 (0.71 is approximately 90 degrees in quaternions). With this, auto rotation occurs when the player is touching a surface, is upside down, and has no neck segments extended. This pairs very nicely with the easiest way to let go of branches, the Quick Retract, which automatically retracts all segments.
 
 ---
 ---
