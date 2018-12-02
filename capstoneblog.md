@@ -21,10 +21,16 @@
 ---
 ---
 
-## November ??th, 2018
-### Presentation in Review
+## December 2nd, 2018
+### Post Mortem
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post is a work in progress...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As of writing this, I'm happy to announce that Short Giraffe will be continuing develop into next semester. Our presentation went over really well and the demonstration of the game for the faculty went pretty smoothly as far as I know. You can watch the trailer and [demo reel for the game](https://www.youtube.com/watch?v=lDDsjfHlHfQ); it's edited and narrated by me! Now, we've onboarded people from all of the disciplines bringing our team roster size from four to a whopping thirteen. Before we begin planning for next semester, I write this post to reflect on this semester and the development of Short Giraffe.
+
+**A Slow Start**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the beginning of our planning, we had decided on three main ideas to prototype. These were codenamed "Creepy Siri", "Rhyhthm RPG", and "Short Giraffe" (see *The Original Ten Ideas (part 2, the top three)* for more on Creepy Siri and Ryhthm RPG). This left me and the team feeling overwhelmed in having to prototype three massively different ideas. The Rhythm RPG got a small prototype done that used Unity's built-in time functions to produce a beat but never got too far, and Short Giraffe had our first "Sturdy Giraffe" prototype. Due to lacking prototyping power since it's not our designers' strongsuits, having to expand on the Rhyhthm RPG to get it to a testable state in addition to improving the existing Short Giraffe prototype proved to be too much. Instead, we decided to focus just on Short Giraffe and made three different prototypes. This lead to the concept art below, which we used frequently is our presentations to show how we've iterated over time.
+
+![alt text]( "The three pieces of concept art we used showing off the ideas for the sturdy, springy, and grid-based necks")
 
 ---
 ---
