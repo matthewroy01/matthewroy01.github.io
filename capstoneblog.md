@@ -52,6 +52,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In conclusion, I think Short Giraffe came as far as did due to our really good team dynamic but was held back at first by the lack of programming power when it came to our designers. We were also able to make important executive decisions such as cutting other prototype ideas or abandoning neck skinning when it was important to do so. I hope that we can take what went well this semester into next semester and continue to make Short Giraffe the best it can be.
 
+![alt text](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/img/short_giraffe_title_loop.gif?raw=true "Short Giraffe title screen loop gif")
+
 ---
 ---
 
