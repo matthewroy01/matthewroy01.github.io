@@ -18,6 +18,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Giraffe is a 2D physics-based platformer starring a short, cyborg, secret agent giraffe named Agent G that has the unique ability to extend and retract its neck. By extending its neck, Agent G can swing, swim, and solve its way through levels to help apprehend the Meerkat menace.
 
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/cupojoe_logo.png "Cup O' Joe Studios Logo")
+
 ---
 ---
 
