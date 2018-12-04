@@ -18,6 +18,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Giraffe is a 2D physics-based platformer starring a short, cyborg, secret agent giraffe named Agent G that has the unique ability to extend and retract its neck. By extending its neck, Agent G can swing, swim, and solve its way through levels to help apprehend the Meerkat menace.
 
+![Cup O' Joe Studios Logo](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/cupojoe_logo.png "Cup O' Joe Studios Logo")
+
 ---
 ---
 
@@ -30,7 +32,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the beginning of our planning, we had decided on three main ideas to prototype. These were codenamed "Creepy Siri", "Rhyhthm RPG", and "Short Giraffe" (see *The Original Ten Ideas (part 2, the top three)* for more on Creepy Siri and Ryhthm RPG). This left me and the team feeling overwhelmed in having to prototype three massively different ideas. The Rhythm RPG got a small prototype done that used Unity's built-in time functions to produce a beat but never got too far and Short Giraffe had our first "Sturdy Giraffe" prototype. Due to lacking prototyping power since it's not our designers' strongsuits, having to expand on the Rhyhthm RPG to get it to a testable state in addition to improving the existing Short Giraffe prototype proved to be too much. Instead, we decided to focus just on Short Giraffe and made three different prototypes of it instead. This lead to the concept art below which we used frequently in our presentations to show how we've iterated over time.
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_mechanic_concepts.png "The three pieces of concept art we used showing off the ideas for the sturdy, springy, and grid-based necks")
+![The three pieces of concept art we used showing off the ideas for the sturdy, springy, and grid-based necks](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_mechanic_concepts.png "The three pieces of concept art we used showing off the ideas for the sturdy, springy, and grid-based necks")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based on these, we decided to go with a sort of combination of all three, combining the reliability of the sturdy and grid-based necks with a more fluid style of the springy neck. The final version of the game features a neck that can be smoothly created in any way the player wishes as if the path is being drawn.
 
@@ -52,7 +54,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In conclusion, I think Short Giraffe came as far as did due to our really good team dynamic but was held back at first by the lack of programming power when it came to our designers. We were also able to make important executive decisions such as cutting other prototype ideas or abandoning neck skinning when it was important to do so. I hope that we can take what went well this semester into next semester and continue to make Short Giraffe the best it can be.
 
-![alt text](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/img/short_giraffe_title_loop.gif?raw=true "Short Giraffe title screen loop gif")
+![Short Giraffe title screen loop gif](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/img/short_giraffe_title_loop.gif?raw=true "Short Giraffe title screen loop gif")
 
 ---
 ---
@@ -98,7 +100,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here is a gif of a visible reticle for demonstration purposes:
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_reticle.gif "The neck with the reticle visible")
+![The neck with the reticle visible](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_reticle.gif "The neck with the reticle visible")
 
 Here is a list describing how the neck segments are stored as preparation for the next sections:
 * each Neck Segment is stored in a C# List
@@ -116,7 +118,7 @@ Here is a list describing how the neck segments are stored as preparation for th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The "sphere" and "box" parts that make up the segments now come together to create Agent G's current look in the game:
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_cyborg_neck.gif "Cyborg Giraffe Neck with Box and Sphere components")
+![Cyborg Giraffe Neck with Box and Sphere components](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_cyborg_neck.gif "Cyborg Giraffe Neck with Box and Sphere components")
 
 **Retracting the Neck**
 
@@ -150,9 +152,9 @@ Here is a list describing how the neck segments are stored as preparation for th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scriptable Objects are special object types in Unity that allow multiple instances that you can store in the Assets folder of your Unity project. Normally, you can right click in the Assets tab to create something, and by writing your own Scriptable Object, you can have them appear too.
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_scriptable_objects.png "Custom Short Giraffe Scriptable Objects")
+![Custom Short Giraffe Scriptable Objects](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_scriptable_objects.png "Custom Short Giraffe Scriptable Objects")
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_example_physics_behaviour.png "The Quicksand Physics Behaviour")
+![The Quicksand Physics Behaviour](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_example_physics_behaviour.png "The Quicksand Physics Behaviour")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instead of having a *PhysicsWater* and *PhysicsQuicksand* script, the variables from them (such as how much to change gravity and friction) are stored inside a scriptable object called Physics Bheaviour (seen above using the Quicksand Behaviour as an example). Then, as a replacement for how the user used to be able to put the physics scripts on any object to make it work, there is now a *PhysicsManager* script. The *PhysicsManager* can be placed on any object with a physics component but stores a list of the Physics Behaviours. It will loop through the behaviours and try to apply them similar to how each physics script would originally apply effects to the object it was attached to.
 
@@ -180,13 +182,13 @@ Here is a list describing how the neck segments are stored as preparation for th
 
 This is what the player object from Kid Icarus: Infinite Underworld looks like:
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_playerInspector.png "Infinite Underworld's player object")
+![Infinite Underworld's player object](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_playerInspector.png "Infinite Underworld's player object")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see, there are quite a few Player scripts attached to this object all with different functionalities meant to decouple and organize them. For example, the sounds played when shooting are not handled in *PlayerShoot* but in *PlayerAudio*. At the same time, health stored in *PlayerCollision* isn't also displayed there, it's displayed in *PlayerUI*.
 
 Here is a script on the player in [RV Punch](https://github.com/matthewroy01/matthewroy01.github.io/blob/master/index.md#rv-punch):
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/rvpunch_playerStatus.png "RV Punch Player Status")
+![RV Punch Player Status](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/rvpunch_playerStatus.png "RV Punch Player Status")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *PlayerStatus* contains a (rather messy) list of data for the player to hold that can't be stored anywhere else. For Short Giraffe, I want to combine the ideas I used in Infinite Underworld and RV Punch. I want to have lots of Player Scripts to help organize the code, but at the same time I want to make use of a *PlayerStatus*. The *PlayerStatus* script can also hold on to all of the references to the other scripts. So for example, instead of *PlayerCollision* and *PlayerShoot* needing access to *PlayerUI*, they can just include *PlayerStatus* which holds all the references to the other player scripts.
 
@@ -200,16 +202,16 @@ Here is a script on the player in [RV Punch](https://github.com/matthewroy01/mat
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During our latest class, we gave our first formal presentation that wasn't just an update; we attempted to touch on all the things required under "Establising the Concept" in the syllabus. Most importantly is our game's concept and build. From taking our different builds to QA, we've settled on combining some of the ideas from each. We want the giraffe's neck to be more limited as to what it can do (I.E. being more sturdy) like in our Sturdy Giraffe prototype, we want the controls to be intuitive like in the Grid-Based Giraffe prototype, and if possible, we want the visuals to be goofy like in the Springy Giraffe prototype (see Giraffe: Stretched Thin for more information on each individual prototype). The result is a giraffe who embraces the name of the game, being short by default with the abilitiy to extend its neck in any direction a set distance at a time.
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_retract.gif "Neck Retraction")
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_bretract.gif "Backwards Neck Retraction")
+![Neck Retraction gif](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_retract.gif "Neck Retraction")
+![Backwards Neck Retraction gif](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_bretract.gif "Backwards Neck Retraction")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the things that is unique about this version of Short Giraffe is the retraction mechanic. In the Sturdy Giraffe prototype, players could lift their giraffe up off the ground and around an object by continuously winding the neck around it. To create the same situation in this version, not only can the player retract their giraffe's neck from the top down, they can retract the neck, lifting the body up towards the head (seen in the gifs above). This allows players to wrap their neck around an object and then backwards retract, lifting the body up, and allowing the giraffe to swing on objects like before.
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_bretractswing.gif "Lifting Self")
+![Lifting Self gif](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_bretractswing.gif "Lifting Self")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something else that has changed (that is much less important but I want to talk about as the programmer) is the center of mass on the giraffe. One problem that would occur in previous prototypes is that the giraffe would tip over if the neck was leaning too much in one direction or another. I added a mechanic where you could hold a button to have the giraffe hold fast to prevent tipping over. In the new prototype, I figured out you could change the position of center of mass of Unity's Rigidbody component, so by setting the center to the position of the giraffe, it no longer tips over (if you don't manually set the center of mass, it will constantly try to update to the center of the object, including the neck pieces, causing it to tip over if the neck is too far in either direction). In the gif below, it is now much easier to complete this ball puzzle since you don't fall into the pit for leaning over it.
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_COMass_ball_puzzle.gif "Changing the center of mass helps make this puzzle much easier")
+![Changing the center of mass helps make this puzzle much easier](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_COMass_ball_puzzle.gif "Changing the center of mass helps make this puzzle much easier")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moving forward, the team has set its eyes upon the main few puzzle mechanics we want to work with and try out for our vertical slice. These include:
 * A **stamina mechanic** to limit the time the player is able to keep their neck extended.
@@ -227,21 +229,21 @@ Here is a script on the player in [RV Punch](https://github.com/matthewroy01/mat
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From going to discipline reviews and just talking to the programming faculty, something that's really been reinforced for me this semester is my role as programmer. According to my professors, it's not necessarily my role to be creating prototypes all the time; that's the designer's job. Instead, I should be creating things to help make the designer's job easier. For example, the first thing I did at the start of sprint four was take my spring physics code, move it from two scripts to one, and make it much more readable in Unity's inspector. The result was this:
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/spring_system_inspector.png "Spring System Inspector")
+![Spring System Inspector](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/spring_system_inspector.png "Spring System Inspector")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Springs have been simplified into one list, and our spring physics related constants, C and K, are now located here and effect all springs rather than having to change each one manually. Additionally, some debug options are included at the bottom to show midpoints between each spring or lines to highlight where each spring is in space.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the summer, I worked on a personal project based on the original NES Kid Icarus called Kid Icarus: Infinite Underworld. It's a 2D platformer with random level generation and one thing I tried out from [this tutorial by Brackeys](https://www.youtube.com/watch?v=B_Xp9pt8nRY) is a level creator pipeline.
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_map0.png "Infinite Underworld level 0")
+![Infinite Underworld level 0](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_map0.png "Infinite Underworld level 0")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using a simple sprite with minimal colors...
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_colors.png "Infinite Underworld colors")
+![Infinite Underworld colors](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_colors.png "Infinite Underworld colors")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...you can iterate through the image pixel by pixel, and spawn different blocks based on the color...
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_mapresult.png "Infinite Underworld final result")
+![Infinite Underworld final result](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/infinite_underworld_mapresult.png "Infinite Underworld final result")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...which creates the final result of a modular level.
 
@@ -259,7 +261,7 @@ Here is a script on the player in [RV Punch](https://github.com/matthewroy01/mat
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that said, we are prototyping three different versions of Short Giraffe for our QA requirement and to see what works best, all with slight versions of our short/tall/stretchy/bendy giraffe.
 
-![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_0.png "Short Giraffe, Stretchy Concept Art")
+![Short Giraffe, Stretchy Concept Art](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_0.png "Short Giraffe, Stretchy Concept Art")
 
 **Rigid Giraffe**
 
