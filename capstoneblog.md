@@ -22,15 +22,35 @@
 ---
 
 ## December 2nd, 2018
-### Post Mortem
+### Semester in Reflection
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As of writing this, I'm happy to announce that Short Giraffe will be continuing develop into next semester. Our presentation went over really well and the demonstration of the game for the faculty went pretty smoothly as far as I know. You can watch the trailer and [demo reel for the game](https://www.youtube.com/watch?v=lDDsjfHlHfQ); it's edited and narrated by me! Now, we've onboarded people from all of the disciplines bringing our team roster size from four to a whopping thirteen. Before we begin planning for next semester, I write this post to reflect on this semester and the development of Short Giraffe.
 
 **A Slow Start**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the beginning of our planning, we had decided on three main ideas to prototype. These were codenamed "Creepy Siri", "Rhyhthm RPG", and "Short Giraffe" (see *The Original Ten Ideas (part 2, the top three)* for more on Creepy Siri and Ryhthm RPG). This left me and the team feeling overwhelmed in having to prototype three massively different ideas. The Rhythm RPG got a small prototype done that used Unity's built-in time functions to produce a beat but never got too far, and Short Giraffe had our first "Sturdy Giraffe" prototype. Due to lacking prototyping power since it's not our designers' strongsuits, having to expand on the Rhyhthm RPG to get it to a testable state in addition to improving the existing Short Giraffe prototype proved to be too much. Instead, we decided to focus just on Short Giraffe and made three different prototypes. This lead to the concept art below, which we used frequently is our presentations to show how we've iterated over time.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the beginning of our planning, we had decided on three main ideas to prototype. These were codenamed "Creepy Siri", "Rhyhthm RPG", and "Short Giraffe" (see *The Original Ten Ideas (part 2, the top three)* for more on Creepy Siri and Ryhthm RPG). This left me and the team feeling overwhelmed in having to prototype three massively different ideas. The Rhythm RPG got a small prototype done that used Unity's built-in time functions to produce a beat but never got too far and Short Giraffe had our first "Sturdy Giraffe" prototype. Due to lacking prototyping power since it's not our designers' strongsuits, having to expand on the Rhyhthm RPG to get it to a testable state in addition to improving the existing Short Giraffe prototype proved to be too much. Instead, we decided to focus just on Short Giraffe and made three different prototypes of it instead. This lead to the concept art below which we used frequently in our presentations to show how we've iterated over time.
 
-![alt text]( "The three pieces of concept art we used showing off the ideas for the sturdy, springy, and grid-based necks")
+![alt text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_mechanic_concepts.png "The three pieces of concept art we used showing off the ideas for the sturdy, springy, and grid-based necks")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based on these, we decided to go with a sort of combination of all three, combining the reliability of the sturdy and grid-based necks with a more fluid style of the springy neck. The final version of the game features a neck that can be smoothly created in any way the player wishes as if the path is being drawn.
+
+**Model Skinning**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the things that I haven't talked about in this blog about Short Giraffe is model skinning. Originally, we wanted to have Agent G's neck be natural instead of robotic. With the help of faculty this lead to me working on a skinning algorithm that would essentially stretch a 3D model to fit the path that the player draws as the neck. I spent approximately two weeks trying to get it done but wasn't able to in the end. At that point, we were approaching the end of the semester so we ended up decided to go with a robotic style instead that fit nicely into the already existing neck system (see *A Review of Short Giraffe's Neck* for more on how the neck system works).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The neck skinning mainly involves taking the vertices of a model and performing a calculation on them to fit to a curve. The model we'd use for this would theoretically be a cylinder with many rings of vertices going up in order to make the final product as smooth as possible. In order to perform the calculcation, the vertices also need to be in order according to their vertical position along the length of the cylinder. I was able to get the vertices sorted alongside a working catmull-rom function to handle creating the curve. With this, I was able to get something working that looked promising but didn't work with larger cylinders. The main struggle came with how to loop through the list of vertices, alongside each main point in the giraffe's neck, and then the points created by the catmull-rom algorithm.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I plan at taking another crack at model skinning over the winter break because I believe it will be technologically impressive to have and will be something I can show off as a programmer.
+
+**The Team Dynamic**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the things I think we did really well as a team is our communication. Three out of four of us worked together on our game from Production II, *RV Punch* (which you can view on my [projects page](https://matthewroy01.github.io/index)) and the fourth member was still a friend. In addition to our preexisting relationships, our small team size allowed us to meet and communicate extremely frequently, something we noted went really well while working on *RV Punch*. We would meet to do scrum on Mondays and Tuesdays, do a sprint review and create our presentations on Wednesday, have class and do QA on Thursday, and meet for work meetings on Friday. We would also try not to meet on Saturday or Sunday in an attempt to keep weekends free for everyone.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aside from that, the pipeline was pretty straightforward. Our artist was pretty comfortable using the repository or being in-engine to create art assets including models, materials, shaders, and particle systems. This made the design pipeline also pretty smooth with dragging Unity prefabs around to build and decorate levels.
+
+**Conclusion**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In conclusion, I think Short Giraffe came as far as did due to our really good team dynamic but was held back at first by the lack of programming power when it came to our designers. We were also able to make important executive decisions such as cutting other prototype ideas or abandoning neck skinning when it was important to do so. I hope that we can take what went well this semester into next semester and continue to make Short Giraffe the best it can be.
 
 ---
 ---
