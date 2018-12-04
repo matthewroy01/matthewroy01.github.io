@@ -23,7 +23,7 @@
 ---
 ---
 
-## December 2nd, 2018
+## December 4th, 2018
 ### Semester in Reflection
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As of writing this, I'm happy to announce that Short Giraffe will be continuing develop into next semester. Our presentation went over really well and the demonstration of the game for the faculty went pretty smoothly as far as I know. You can watch the trailer and [demo reel for the game](https://www.youtube.com/watch?v=lDDsjfHlHfQ); it's edited and narrated by me! Now, we've onboarded people from all of the disciplines bringing our team roster size from four to a whopping thirteen. Before we begin planning for next semester, I write this post to reflect on this semester and the development of Short Giraffe.
