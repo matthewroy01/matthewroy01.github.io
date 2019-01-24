@@ -14,11 +14,25 @@
 
 ## Introduction
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am Matthew Roy, and as of starting this blog, I am a fourth year student at Champlain College. I will be writing this blog to keep a record of my Senior Capstone project.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am Matthew Roy, and as of starting this blog, I am a fourth year student at Champlain College. I will be writing this blog to keep a record of my Senior Capstone/Production project.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Giraffe is a 2D physics-based platformer starring a short, cyborg, secret agent giraffe named Agent G that has the unique ability to extend and retract its neck. By extending its neck, Agent G can swing, swim, and solve its way through levels to help apprehend the Meerkat menace.
 
 ![Cup O' Joe Studios Logo](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/cupojoe_logo.png "Cup O' Joe Studios Logo")
+
+---
+---
+
+## January 24th, 2019
+### Semester 2-1: Starting up Again
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Back on campus again, it's time to resume production on Short Giraffe. Before we go into full "production mode", we are required to get through Greenlight. My understanding is that Greenlight is a milestone where we need to plan out the rest of the semester and to improve the game using feedback from last semester. This time for greenlight is also nice for testing out some new mechanics we would like to add to Short Giraffe.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I mentioned in my previous post reflecting on last semester, our team roster size has increased from four to thirteen. So far I think this has been a pretty jarring experience. Having more people means it's much more difficult to meet as a team regularly. Instead, the leads (including myself, I'm the programming lead) have met primarily to discuss things like sprint planning and sprint review. It makes me feel a bit uneasy that there's a lot of potential for not everyone being on the same page. With that said, as a lead, I've had a pretty good time communicating with my own discipline so far. We were able to plan what sorts of tasks we were going to do this sprint which made the leads-only sprint planning meeting go smoothly. The only downside I see with this is for example, the designers making tasks separately from the programmers potentially creating overlap with tasks. We'll definitely figure out what works best as we move forward. In other news, the programmers also provided advice on how to organize Short Giraffe's repository which I am grateful for; the repo is looking much more organized now and should be in the future as well.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Related to the increased team size, there are now four programmers on the team and one systems designer. This is honestly a lot more programming power that I expected to have, so we've come up with ideas to increase the scope accordingly. One is adding a dialogue system which would feature our UI focused programmer and our 2D artist working with our narrative designer to help visualize the story of short Giraffe. Other than that, we're testing other gameplay related mechanics such as stealth sections and new kinds of physics puzzles, which should greatly help improve the variety in Short Giraffe's gameplay.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the moment, I'm a little unsure if we're on the road to success in terms of how wer're organizing ourselves. As we move forward through the semester, I'll continue to comment on our team's structure and what's working and not.
 
 ---
 ---
