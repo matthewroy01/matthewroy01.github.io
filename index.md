@@ -7,7 +7,7 @@
 
 ### [My Game Engine Blog](https://matthewroy01.github.io/enginesblog)
 
-### [Senior Capstone Blog](https://matthewroy01.github.io/capstoneblog)
+### [Networking Plugin for Unity, RoyNet](https://matthewroy01.github.io/roynetblog)
 
 ---
 ---
