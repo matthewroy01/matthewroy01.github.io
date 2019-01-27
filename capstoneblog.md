@@ -32,7 +32,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Related to the increased team size, there are now four programmers on the team and one systems designer. This is honestly a lot more programming power that I expected to have, so we've come up with ideas to increase the scope accordingly. One is adding a dialogue system which would feature our UI focused programmer and our 2D artist working with our narrative designer to help visualize the story of short Giraffe. Other than that, we're testing other gameplay related mechanics such as stealth sections and new kinds of physics puzzles, which should greatly help improve the variety in Short Giraffe's gameplay.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the moment, I'm a little unsure if we're on the road to success in terms of how wer're organizing ourselves. As we move forward through the semester, I'll continue to comment on our team's structure and what's working and not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the moment, I'm a little unsure if we're on the road to success in terms of how we're organizing ourselves. As we move forward through the semester, I'll continue to comment on our team's structure and what's working and not.
 
 ---
 ---
