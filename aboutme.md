@@ -8,7 +8,7 @@
 ---
 ---
 
-I am Matthew Roy, a Game Programming Junior currently attending Champlain College in Burlington Vermont. I specialize in gameplay programming.
+I am Matthew Roy, a Game Programming Senior currently attending Champlain College in Burlington Vermont. I specialize in gameplay programming.
 
 [My LinkedIn](https://www.linkedin.com/in/matthew-roy-4ba050154/)
 
