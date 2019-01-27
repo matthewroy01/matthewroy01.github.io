@@ -34,6 +34,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the moment, I'm a little unsure if we're on the road to success in terms of how we're organizing ourselves. As we move forward through the semester, I'll continue to comment on our team's structure and what's working and not.
 
+![A missing cat poster hiding in the background of one of Short Giraffe's levels](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_missingcat.png "A missing cat poster hiding in the background of one of Short Giraffe's levels")
+
 ---
 ---
 
