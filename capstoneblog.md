@@ -58,6 +58,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The neck skinning mainly involves taking the vertices of a model and performing a calculation on them to fit to a curve. The model we'd use for this would theoretically be a cylinder with many rings of vertices going up in order to make the final product as smooth as possible. In order to perform the calculcation, the vertices also need to be in order according to their vertical position along the length of the cylinder. I was able to get the vertices sorted alongside a working catmull-rom function to handle creating the curve. With this, I was able to get something working that looked promising but didn't work with larger cylinders. The main struggle came with how to loop through the list of vertices, alongside each main point in the giraffe's neck, and then the points created by the catmull-rom algorithm.
 
+![A cylinder that would be used for the skinning](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_neckcylinder.png "A cylinder that would be used for the skinning")
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I plan at taking another crack at model skinning over the winter break because I believe it will be technologically impressive to have and will be something I can show off as a programmer.
 
 **The Team Dynamic**
