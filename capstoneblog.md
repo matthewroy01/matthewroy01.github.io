@@ -7,7 +7,7 @@
 
 ### [Projects](https://matthewroy01.github.io/index)
 
-### [Networking Plugin for Unity RoyNet](https://matthewroy01.github.io/roynetblog)
+### [Networking Plugin for Unity, RoyNet](https://matthewroy01.github.io/roynetblog)
 
 ---
 ---
