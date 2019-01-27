@@ -24,7 +24,7 @@ Welcome to my portfolio!
 * Won Audience Award at Champlain Gamesfest 2018
 * Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018
 
-Download RV Punch [here](https://milkshed-games.itch.io/rvpunch).
+Download RV Punch [here on itch.io](https://milkshed-games.itch.io/rvpunch).
 
 Made for Production 2, spring 2018 semester by MilkShed Games. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
 
