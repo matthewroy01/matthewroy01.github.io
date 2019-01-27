@@ -24,7 +24,9 @@ Welcome to my portfolio!
 * Won Audience Award at Champlain Gamesfest 2018
 * Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018
 
-Made for Production 2, spring 2018 semester by MilkShed Games. Currently under development. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
+Download RV Punch [here](https://milkshed-games.itch.io/rvpunch).
+
+Made for Production 2, spring 2018 semester by MilkShed Games. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
 
 RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
 
