@@ -37,6 +37,20 @@ View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
 ---
 ---
 
+### Kid Icarus: Infinite Underworld
+
+* Arcade Platformer
+* Made in Unity 2018.2
+* Team size: 1
+* 2018
+
+Download Kid Icarus: Infinite Underworld [here on itch.io](https://matthewroy.itch.io/infiniteunderworld).
+
+An infinitely generating vertical 2D platformer with randomly spawning enemies and random items to buy in shops. Kid Icarus: Infinite Underworld is a fan game based on Nintendo's Kid Icarus series.
+
+---
+---
+
 ### Panic
 
 * Strategy
