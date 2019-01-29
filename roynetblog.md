@@ -3,6 +3,15 @@
 ---
 ---
 
+### [About Me Page](https://matthewroy01.github.io/aboutme)
+
+### [Projects](https://matthewroy01.github.io/index)
+
+### [My Senior Capstone/Production Blog](https://matthewroy01.github.io/capstoneblog)
+
+---
+---
+
 ## Introduction
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am Matthew Roy, a senior game programmer at Champlain College. This blog is about RoyNet, a networking plugin for Unity using [RakNet](http://www.jenkinssoftware.com/index.html).
