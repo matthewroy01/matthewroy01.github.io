@@ -19,6 +19,22 @@
 ---
 ---
 
+## February 3rd, 2019
+### Feature List and Schedule
+
+Feature List (highest priority at the top):
+
+1. make a simple networked model using data push, RakNet, and C#/C++ between Unity and a plugin
+2. serialization/deserialization of Unity components/data
+3. small "game" prototype to show off the architecture
+4. dead reckoning
+5. relevancy and priority
+6. other networking models (data share, merge, etc.)
+7. server/client research and expansion
+
+---
+---
+
 ## January 28th, 2019
 ### My Plan
 
