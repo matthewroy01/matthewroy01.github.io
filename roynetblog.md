@@ -22,7 +22,7 @@
 ## February 3rd, 2019
 ### Feature List and Schedule
 
-Feature List (highest priority at the top):
+#### Feature List (highest priority at the top):
 
 1. make a simple networked model using data push, RakNet, and C#/C++ between Unity and a plugin
 2. serialization/deserialization of Unity components/data
@@ -38,7 +38,7 @@ Feature List (highest priority at the top):
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lastly, I want to experiment with additional networking models like data share and data merge since they have less limitations than data push. Fooling around with how servers and clients interact and exist in the user's control could also be worth exploring for more customization (I.E. if the server is a separate executable or if the player can host their game from inside their Unity client).
 
-Schedule
+#### Schedule
 
 * February 3rd - March 1st: simple networking prototype, S/D, small "game" prototype
 * March 1st - March 8th: starting dead reckoning
