@@ -32,6 +32,20 @@ Feature List (highest priority at the top):
 6. other networking models (data share, merge, etc.)
 7. server/client research and expansion
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based on my feature list, I would like to get features 1-3 done in four weeks (starting February 3rd, finishing March 1st). I believe this will be enough time to get through the busy work of creating a simple data push prototype while most of the focus will go into research and implementation of serialization and deserialization (S/D). Making a small game prototype to show off the program will depend on the results of the S/D implementation. S/D is my first big unknown although I've been pointed in the direction of C#'s [reflection](https://www.tutorialspoint.com/csharp/csharp_reflection.htm) feature to get data from existing Unity scripts so that the user can easily select what data they want sent over the network. Being done by March 1st will also leave the following week for Production deadlines before spring break.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After features 1-3, I want to get feature 4 set up and planned out before the start of spring break and in time for the spring break. Following spring break, I want to begin researching the second unknown, [relevancy and prioroity](https://docs.unrealengine.com/en-US/Gameplay/Networking/Actors/Relevancy). Relevancy and priority is a technique used in the Unreal Engine that optimizes the networking by ommitting unnecessary data from being sent to the client (for example, players on one side of the map in Epic's Fortnite don't need to be kept track of from the other).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lastly, I want to experiment with additional networking models like data share and data merge since they have less limitations than data push. Fooling around with how servers and clients interact and exist in the user's control could also be worth exploring for more customization (I.E. if the server is a separate executable or if the player can host their game from inside their Unity client).
+
+Schedule
+
+* February 3rd - March 1st: simple networking prototype, S/D, small "game" prototype
+* March 1st - March 8th: starting dead reckoning
+* March 9th - March 17th: spring break
+* March 18th - ???: relevancy and priority
+* ??? - ???: polish, data share/merge, server/client model expansion
+
 ---
 ---
 
