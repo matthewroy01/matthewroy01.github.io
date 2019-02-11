@@ -44,11 +44,18 @@
 
 #### Schedule
 
-* February 3rd - March 1st: simple networking prototype, S/D, small "game" prototype
-* March 1st - March 8th: starting dead reckoning
-* March 9th - March 17th: spring break
-* March 18th - ???: relevancy and priority
-* ??? - ???: polish, data share/merge, server/client model expansion
+* Week 4 - S/D
+* Week 5 - S/D finished
+* Week 6 - Simple Networking Prototype
+* Week 7 - Small "Game" Prototype
+* Week 8 - Polish for mid-term
+
+SPRING BREAK
+
+* Week 9 - Dead Reckoning
+* Week 10 - Relevancy and Priority
+* Week 11 - Data Share/Merge, Server/Client
+* Week 12 - Final polish for final
 
 ---
 ---
