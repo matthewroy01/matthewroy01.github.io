@@ -23,6 +23,22 @@
 ---
 ---
 
+## February 16th, 2019
+### Semester 2-3: Forward and Inverse Kinematics
+
+---
+---
+
+## February 16th, 2019
+### Semester 2-2: Two Players are Better than One?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something we're looking to add to Short Giraffe is a multiplayer mode. Rather than including some sort of mode where there are two of Agent G, the plan is to have two players control Agent G at the same time. One player will control Agent G's neck while the other controls his body. In other words, one player moves Agent G while the other extends and retracts the neck to help interact with things. Finally, to prevent one player being bored only playing one role the whole time (and to increase the chaos of the mode), the two players will swap controls at regular time intervals. Our team is looking to publish Short Giraffe to the Nintendo Switch and we believe a multiplayer mode both fits the portability of the console and its easy to separate joycon controllers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating this mode has and will continue to pose some problems. First is redesigning how the controls will be handled. Previously, since there were no intentions for multiplayer, all the controls were hard coded into their individual scripts. To change it, I moved all controls to one script, *PlayerStatus*, where they could be stored as public strings. This way, an external script could alter the controls for multiplayer both at the start of the game, but also to swap the controls during gameplay. Additionally, controls were cleaned up further by one of the other programmer's input management system that can be used as a wrapper for Unity's default input and even includes input layering which will be extremely convenient for creating menus in the future.
+
+---
+---
+
 ## January 24th, 2019
 ### Semester 2-1: Starting up Again
 
