@@ -38,6 +38,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The current version of the multiplayer features text that appears on the screen that either reads "Player 1 is now controlling the neck" or "Player 2 is now controlling the neck". Working towards actually proper feedback for when a switch is going to happen will be very important. Something I'm looking into this week is creating a visual effect to show which player is controlling which part. For example, player one will highlight whichever part they're controlling in red while player two highlights things in blue. I believe this task can be accomplished via a shader that either simply draws outlines or duplicates the vertices of the model, increases their size, and inverts them (essentially also creating an outline). Either way, this is a challenge I'll be looking into in the coming week.
 
+![The ugly multiplayer prototype text](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_mutliplayer_prototype.png "The ugly multiplayer prototype text")
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another potential improvement we've gotten is a bar that shows the time until the controls swap. With this and other changes, I hope to see if the multiplayer mode is actually fun to play and thus worth pursuing further.
 
 ---
