@@ -23,8 +23,22 @@
 ---
 ---
 
-## February 16th, 2019
+## February 22nd, 2019
 ### Forward and Inverse Kinematics (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've discussed how the neck in Short Giraffe works in previous posts before in a post titled *A Review of Short Giraffe's Neck*. However, something I haven't talked about is the concept of forward kinematics. Forward Kinematics is an animation technique that simply creates a pose based on a series of given points. In this sense, Short Giraffe's neck system uses forward kinematics to build the neck as players extend it.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opposite forward kinematics is inverse kinematics, where a pose is created based on an endpoint. This technique is used both in animation and robotics to get a limb to position itself correctly to reach some end effector. One thing that can happen in Short Giraffe is that Agent G will fall over if he has his neck extended and walks into something. I wanted to implement inverse kinematics to make the neck adjust itself when contact is about to be made so that collision doesn't actually occur. Creating a prototype was actually rather easy, as each object essentially only needs to rotate to point towards its next position, moved to it, and then reset back to the origin to prevent any unwanted stretching.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The end result for a prototype I made looks like this:
+
+![IK prototype gif](url_here "IK prototype gif")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actually applying the IK prototype to Agent G's neck didn't create the results I was hoping for, but I think there may be a problem with the reset step where the segments are corrected back to their origin. Either way, I'm happy I was able to practice both forward and inverse kinematics and I hope to continue to improve their implementations to make Short Giraffe control the best it can.
+
+![Agent G's broken neck 1](url_here "Agent G's broken neck 1")
+
+![Agent G's broken neck 2](url_here "Agent G's broken neck 2")
 
 ---
 ---
