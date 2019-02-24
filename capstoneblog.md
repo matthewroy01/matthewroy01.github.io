@@ -24,6 +24,28 @@
 ---
 
 ## February 22nd, 2019
+### The Power of Mecanim (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recently I've been tasked with implementing the new animations for Agent G in Short Giraffe, and with new and improved animations, I wanted to make sure I was using Unity's animation tools (Mecanim) to their best advantage. From experience, I know that Unity animation can create some horrifying webs when you're trying to create the transitions between the animations.
+
+![The animation web used for Short Giraffe](URL_here "The animation web used for Short Giraffe")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that we have a dedicated animator on the team, we want to add some more animations to Agent G. These mainly include animations specifically for swinging (previously, Agent G would hold a pose from his jump animation while swinging). Originally, I thought this meant having to connect these animations to the existing web, but then I remembered animation layers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From working on a summer project, I came across the animation layer feature as something that would allow me to animate more than one part of a character separately. The project was based on the NES game, *Kid Icarus* and would have allowed me to have Pit's body animate to shoot while also allowing his legs to animate separately (walking, standing still, jumping, etc.). This concept also applies to modern first person shooters where the top half and bottom half of a character's body may animate separately as they walk, run, strafe, shoot, punch, etc.
+
+![An example of Kid Icarus gameplay](URL_here "An example of Kid Icarus gameplay")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I won't be using animation layers to animate multiple parts of Agent G however. Instead, I'll be using the layers to organize different animation webs. I have one layer dedicated to the existing animations with a new one for swinging specifically. I can switch between them by setting the active layer's weight to one and all others to zero. Previously I would have had to add the new animations to the existing web and figure out what conditions would cause the transition, but this has made the animation system much more organized and has really alleviated any future stress for adding more since I know it's so easy.
+
+![Animation layers](URL_here "Animation layers")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, some additional stray thoughts. The concept of "Exit Time" is found when you create a new transition in Mecanim. Exit time is the amount of time the animation has to make that particular transition. Previously, we had all of Agent G's transitions with an exit time of zero so that the animations would change instantaneously. However, with our dedicated animator we can have some exit time to allow the poses to fade between each other, which is easy thanks to Mecanim doing this automatically. Additionally, an "Any State" option exists inside of mecanim that allows a transition to occur from... any state. This sounds like it would be very convenient but doesn't seem designed for more complicated animations since it can be triggered every frame causing animations to restart infinitely. Despite being tedious, creating that convoluted web seems to be the way to go to get the most control out of the animation in your game.
+
+---
+---
+
+## February 21st, 2019
 ### Forward and Inverse Kinematics (Sem. 2)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've discussed how the neck in Short Giraffe works in a previous post titled *A Review of Short Giraffe's Neck*. However, something I haven't talked about is the concept of forward kinematics. Forward Kinematics is an animation technique that simply creates a pose based on a series of given points. In this sense, Short Giraffe's neck system uses forward kinematics to build the neck as players extend it.
