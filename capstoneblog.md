@@ -40,7 +40,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One quirk I found is that it seems the weight of the Base Layer (created by default) can't be changed. To get around this, a new layer I made is treated as the default layer in the code.
 
-![Animation layers](URL_here "Animation layers")
+![Animation layers](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_animation_layers.gif "Animation layers")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, some additional stray thoughts. The concept of "Exit Time" is found when you create a new transition in Mecanim. Exit time is the amount of time the animation has to make that particular transition. Previously, we had all of Agent G's transitions with an exit time of zero so that the animations would change instantaneously. However, with our dedicated animator we can have some exit time to allow the poses to fade between each other, which is easy thanks to Mecanim doing this automatically. Additionally, an "Any State" option exists inside of mecanim that allows a transition to occur from... any state. This sounds like it would be very convenient but doesn't seem designed for more complicated animations since it can be triggered every frame causing animations to restart infinitely. Despite being tedious, creating that convoluted web seems to be the way to go to get the most control out of the animation in your game.
 
