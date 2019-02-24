@@ -24,21 +24,47 @@
 ---
 
 ## February 22nd, 2019
+### The Power of Mecanim (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recently I've been tasked with implementing the new animations for Agent G in Short Giraffe, and with new and improved animations, I wanted to make sure I was using Unity's animation tools (Mecanim) to their best advantage. From experience, I know that Unity animation can create some horrifying webs when you're trying to create the transitions between the animations.
+
+![The animation web used for Short Giraffe](URL_here "The animation web used for Short Giraffe")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that we have a dedicated animator on the team, we want to add some more animations to Agent G. These mainly include animations specifically for swinging (previously, Agent G would hold a pose from his jump animation while swinging). Originally, I thought this meant having to connect these animations to the existing web, but then I remembered animation layers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From working on a summer project, I came across the animation layer feature as something that would allow me to animate more than one part of a character separately. The project was based on the NES game, *Kid Icarus* and would have allowed me to have Pit's body animate to shoot while also allowing his legs to animate separately (walking, standing still, jumping, etc.). This concept also applies to modern first person shooters where the top half and bottom half of a character's body may animate separately as they walk, run, strafe, shoot, punch, etc.
+
+![An example of Kid Icarus gameplay](URL_here "An example of Kid Icarus gameplay")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I won't be using animation layers to animate multiple parts of Agent G however. Instead, I'll be using the layers to organize different animation webs. I have one layer dedicated to the existing animations with a new one for swinging specifically. I can switch between them by setting the active layer's weight to one and all others to zero. Previously I would have had to add the new animations to the existing web and figure out what conditions would cause the transition, but this has made the animation system much more organized and has really alleviated any future stress for adding more since I know it's so easy.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One quirk I found is that it seems the weight of the Base Layer (created by default) can't be changed. To get around this, a new layer I made is treated as the default layer in the code.
+
+![Animation layers](URL_here "Animation layers")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, some additional stray thoughts. The concept of "Exit Time" is found when you create a new transition in Mecanim. Exit time is the amount of time the animation has to make that particular transition. Previously, we had all of Agent G's transitions with an exit time of zero so that the animations would change instantaneously. However, with our dedicated animator we can have some exit time to allow the poses to fade between each other, which is easy thanks to Mecanim doing this automatically. Additionally, an "Any State" option exists inside of mecanim that allows a transition to occur from... any state. This sounds like it would be very convenient but doesn't seem designed for more complicated animations since it can be triggered every frame causing animations to restart infinitely. Despite being tedious, creating that convoluted web seems to be the way to go to get the most control out of the animation in your game.
+
+---
+---
+
+## February 21st, 2019
 ### Forward and Inverse Kinematics (Sem. 2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've discussed how the neck in Short Giraffe works in previous posts before in a post titled *A Review of Short Giraffe's Neck*. However, something I haven't talked about is the concept of forward kinematics. Forward Kinematics is an animation technique that simply creates a pose based on a series of given points. In this sense, Short Giraffe's neck system uses forward kinematics to build the neck as players extend it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've discussed how the neck in Short Giraffe works in a previous post titled *A Review of Short Giraffe's Neck*. However, something I haven't talked about is the concept of forward kinematics. Forward Kinematics is an animation technique that simply creates a pose based on a series of given points. In this sense, Short Giraffe's neck system uses forward kinematics to build the neck as players extend it.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opposite forward kinematics is inverse kinematics, where a pose is created based on an endpoint. This technique is used both in animation and robotics to get a limb to position itself correctly to reach some end effector. One thing that can happen in Short Giraffe is that Agent G will fall over if he has his neck extended and walks into something. I wanted to implement inverse kinematics to make the neck adjust itself when contact is about to be made so that collision doesn't actually occur. Creating a prototype was actually rather easy, as each object essentially only needs to rotate to point towards its next position, moved to it, and then reset back to the origin to prevent any unwanted stretching.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opposite forward kinematics is inverse kinematics, where a pose is created based on an endpoint. This technique is used both in animation and robotics to get a limb to position itself correctly to reach some target position. One thing that can happen in Short Giraffe is that Agent G will fall over if he has his neck extended and walks into something. I wanted to implement inverse kinematics to make the neck adjust itself when contact is about to be made so that collision doesn't actually occur. Creating a prototype was actually rather easy, as each object essentially only needs to rotate to point towards its next position, moved to it, and then reset back to the origin to prevent any unwanted stretching. However, Short Giraffe's inverse kinematics poses an interesting challenge: instead of moving the end of the neck, the neck needs to be able to move at any point in case collision occurs there and it needs to bend. To counteract this, my inverse kinematics algorithm does two passes, one above the point of collision, and one below.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The end result for a prototype I made looks like this:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The end result for the prototype I made looks like this:
 
-![IK prototype gif](url_here "IK prototype gif")
+![IK prototype gif](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_ik_prototype.gif "IK prototype gif")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actually applying the IK prototype to Agent G's neck didn't create the results I was hoping for, but I think there may be a problem with the reset step where the segments are corrected back to their origin. Either way, I'm happy I was able to practice both forward and inverse kinematics and I hope to continue to improve their implementations to make Short Giraffe control the best it can.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actually applying the IK prototype to Agent G's neck didn't create the results I was hoping for, but I think there may be a problem with the reset step where the segments are corrected back to their origin. I hope to continue to improve the implementations to make Short Giraffe control the best it can.
 
-![Agent G's broken neck 1](url_here "Agent G's broken neck 1")
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the gifs below, you can see that the neck does bend in the desired direction as if it were hit and bent, but quickly bends into an unplayable shape.
 
-![Agent G's broken neck 2](url_here "Agent G's broken neck 2")
+![Agent G's broken neck with a large offset](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_ik_bbig.gif "Agent G's broken neck with a large offset")
+
+![Agent G's broken neck with a small offset](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_ik_small.gif "Agent G's broken neck with a small offset")
 
 ---
 ---
