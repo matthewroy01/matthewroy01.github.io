@@ -28,13 +28,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recently I've been tasked with implementing the new animations for Agent G in Short Giraffe, and with new and improved animations, I wanted to make sure I was using Unity's animation tools (Mecanim) to their best advantage. From experience, I know that Unity animation can create some horrifying webs when you're trying to create the transitions between the animations.
 
-![The animation web used for Short Giraffe](URL_here "The animation web used for Short Giraffe")
+![The animation web used for Short Giraffe](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_animation_web.png "The animation web used for Short Giraffe")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now that we have a dedicated animator on the team, we want to add some more animations to Agent G. These mainly include animations specifically for swinging (previously, Agent G would hold a pose from his jump animation while swinging). Originally, I thought this meant having to connect these animations to the existing web, but then I remembered animation layers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From working on a summer project, I came across the animation layer feature as something that would allow me to animate more than one part of a character separately. The project was based on the NES game, *Kid Icarus* and would have allowed me to have Pit's body animate to shoot while also allowing his legs to animate separately (walking, standing still, jumping, etc.). This concept also applies to modern first person shooters where the top half and bottom half of a character's body may animate separately as they walk, run, strafe, shoot, punch, etc.
 
-![An example of Kid Icarus gameplay](URL_here "An example of Kid Icarus gameplay")
+![An example of Kid Icarus gameplay](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/example_kid_icarus_gameplay.gif "An example of Kid Icarus gameplay")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I won't be using animation layers to animate multiple parts of Agent G however. Instead, I'll be using the layers to organize different animation webs. I have one layer dedicated to the existing animations with a new one for swinging specifically. I can switch between them by setting the active layer's weight to one and all others to zero. Previously I would have had to add the new animations to the existing web and figure out what conditions would cause the transition, but this has made the animation system much more organized and has really alleviated any future stress for adding more since I know it's so easy.
 
