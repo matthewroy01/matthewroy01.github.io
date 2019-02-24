@@ -38,9 +38,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the gifs below, you can see that the neck does bend in the desired direction as if it were hit and bent, but quickly bends into an unplayable shape.
 
-![Agent G's broken neck 1](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_ik_small.gif "Agent G's broken neck 1")
+![Agent G's broken neck with a large offset](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_ik_bbig.gif "Agent G's broken neck with a large offset")
 
-![Agent G's broken neck 2](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_ik_bbig.gif "Agent G's broken neck 2")
+![Agent G's broken neck with a small offset](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_ik_small.gif "Agent G's broken neck with a small offset")
 
 ---
 ---
