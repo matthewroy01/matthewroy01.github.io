@@ -38,7 +38,7 @@
 * if the assets will be randomly rotated
 * if the assets will be randomly scaled
 
-![An example of a pop pack]( "An example of a pop pack")
+![An example of a pop pack](URL "An example of a pop pack")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I believe the interface of the tool is extremely important as well. After pressing the button the populate, the button is replaced with three buttons:
 
@@ -46,11 +46,11 @@
 * cancel (delete spawned assets)
 * save (keep spawned assets)
 
-![The tool with multiple buttons]( "The tool with multiple buttons")
+![The tool with multiple buttons](URL "The tool with multiple buttons")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ability to save versus just leaving the assets as they are comes from the tool having to keep track of the assets to later delete them if need be. Upon saving, the list of assets that's kept track of internally is cleared for spawning more on another model. If the models are changed, the assets will also be cleared from their list for those new models as well.
 
-![Before and after gif]( "Before and after gif")
+![Before and after gif](URL "Before and after gif")
 
 ---
 ---
