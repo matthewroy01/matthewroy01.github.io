@@ -23,6 +23,38 @@
 ---
 ---
 
+## March 2nd, 2019
+### The Golden Path to Tools (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the world of game programming, it seems that there is one end goal for a team: tools. Once all the systems are done, gameplay is in working order, and builds are ready to go, it's our job to make the jobs of the rest of the team's jobs easier. One such tool that's been worked on by one of the other programmers is a heatmapping tool to be used during testing to see where players get stuck for longer period of times. A tool I've been looking into this week is a tool to help the artists populate levels with assets.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a tool required me to research creating custom windows. You can create both an entirely custom window for whatever you're creating or you can override the default Unity inspector to make working with scripts easier.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the art population tool, I wanted to have the user input an object with a model to be covered in assets randomly. The user can drag any number of objects with a model into the tool, and then a list of assets and then press a button to have the tool loop through the vertices of each model and spawn the assets at those positions. Upon creating the list, the user can specify the following:
+
+* the density at which assets are spawned (from 0 to 100)
+* the probability (weight) of each individual asset spawning (from 0 to 1)
+* the radius of each individual asset (assets will be prevented from spawning if they are within the radius of another prop)
+* if the assets will be randomly rotated
+* if the assets will be randomly scaled
+
+![An example of a pop pack]( "An example of a pop pack")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I believe the interface of the tool is extremely important as well. After pressing the button the populate, the button is replaced with three buttons:
+
+* reroll (delete spawned assets and respawn them)
+* cancel (delete spawned assets)
+* save (keep spawned assets)
+
+![The tool with multiple buttons]( "The tool with multiple buttons")
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ability to save versus just leaving the assets as they are comes from the tool having to keep track of the assets to later delete them if need be. Upon saving, the list of assets that's kept track of internally is cleared for spawning more on another model. If the models are changed, the assets will also be cleared from their list for those new models as well.
+
+![Before and after gif]( "Before and after gif")
+
+---
+---
+
 ## February 22nd, 2019
 ### The Power of Mecanim (Sem. 2)
 
