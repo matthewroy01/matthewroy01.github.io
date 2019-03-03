@@ -30,13 +30,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a tool required me to research creating custom windows. You can create both an entirely custom window for whatever you're creating or you can override the default Unity inspector to make working with scripts easier.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the art population tool, I wanted to have the user input an object with a model to be covered in assets randomly. The user can drag any number of objects with a model into the tool, and then a list of assets and then press a button to have the tool loop through the vertices of each model and spawn the assets at those positions. Upon creating the list, the user can specify the following:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the art population tool, I wanted to have the user input any number of objects with models to be covered in assets randomly. The user can drag the objects into the tool, drag a list of assets, and then press a button to have the tool loop through the vertices of each model and spawn the assets at those positions. I've named that list of assets a "PopPack" ("pop" being short for "population"). Upon creating a PopPack, the user can specify the following:
 
 * the density at which assets are spawned (from 0 to 100)
 * the probability (weight) of each individual asset spawning (from 0 to 1)
 * the radius of each individual asset (assets will be prevented from spawning if they are within the radius of another prop)
-* if the assets will be randomly rotated
-* if the assets will be randomly scaled
 
 ![An example of a pop pack](URL "An example of a pop pack")
 
@@ -45,6 +43,8 @@
 * reroll (delete spawned assets and respawn them)
 * cancel (delete spawned assets)
 * save (keep spawned assets)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the assets are spawned with a random rotation or scale is also decided in the main interface of the tool.
 
 ![The tool with multiple buttons](URL "The tool with multiple buttons")
 
