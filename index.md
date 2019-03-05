@@ -14,6 +14,22 @@
 
 Welcome to my portfolio!
 
+### Short Giraffe
+
+* Puzzle Platformer
+* Made in Unity 2018.3
+* Team size: 13
+* 2018-2019
+
+Short Giraffe is a playfully absurd 2.5D platformer with a unique movement mechanic. Playing as Agent G, players can extend and retract their neck to traverse the environment. With seven uses for the neck, this mechanized mammal is well equipped for any objective. One such objective is taking down the dastardly Meerkats who are out to ruin the world. As Agent G, players will investigate the meerkat plot by capturing the critters everywhere from the savannah, to snow-covered plains. Short Giraffe offers players a light-hearted atmosphere that delivers a series of complex puzzles.
+
+Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by Cup O' Joe Studios LLC. Follow us on [Twitter](https://twitter.com/cupojoestudios).
+
+View the trailer/gameplay reel [here](https://www.youtube.com/watch?v=lDDsjfHlHfQ).
+
+---
+---
+
 ### RV Punch
 
 * Racing
