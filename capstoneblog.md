@@ -23,6 +23,20 @@
 ---
 ---
 
+## March 15th, 2019
+### My Role as a Lead Programmer
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some time ago, I wrote a post titled "My Role as a Programmer" where I reflected on my responsibilities as a programmer: generally being focused on tools and keeping the process of content creation as smooth as possible for the other disciplines. Today, I want to discuss "My Role as a *Lead* Programmer". This semester, with the increased size of our team including three additional programmers, I've taken the role of the lead programmer.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since the start of this semester, our team has been managed mostly via lead meetings including myself, the two lead designers, the lead artist, and our two producers. Most of the team planning is done in these meetings creating a sort of "chain of command" where the leads discuss what tasks need to be done that week, and then us leads go back to the members of our discipline and help facilitate task creation.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other than that, I have some responsibility to oversee the work of my discipline members. It's not enforced too strongly, but sometimes programming tasks are set to "Feedback" instead of "Complete" for me to review their completeness. Additionally, I manage the repository at the end of each sprint to merge everyone's work by messaging individual people on our Discord to make sure no work is lost.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A major struggle I've had as a lead is task creation. Generally, it's been a struggle trying to come up with enough tasks for all of the programmers on the team and I usually struggle to come up with task ideas. To solve this issue, us programmers have met with the programming faculty during a discipline review to discuss potential tools, which we are now either working on or have in the backlog to work on during task droughts (although not having tasks to do immediately probably isn't too bad and means that we're on the right track).
+
+---
+---
+
 ## March 2nd, 2019
 ### The Golden Path to Tools (Sem. 2)
 
