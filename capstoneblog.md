@@ -24,7 +24,7 @@
 ---
 
 ## March 15th, 2019
-### My Role as a Lead Programmer
+### My Role as a Lead Programmer (Sem. 2)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some time ago, I wrote a post titled "My Role as a Programmer" where I reflected on my responsibilities as a programmer: generally being focused on tools and keeping the process of content creation as smooth as possible for the other disciplines. Today, I want to discuss "My Role as a *Lead* Programmer". This semester, with the increased size of our team including three additional programmers, I've taken the role of the lead programmer.
 
