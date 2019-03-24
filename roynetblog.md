@@ -37,20 +37,27 @@
 #### Here's a revised plan for the rest of the semester:
 
 * March 25 - April 29:
+
 find a solution for reflection "pointer" issue, get DLL working with any basic message sending
 
 * April 1 - April 5:
+
 create RoyNetManager class that communicates with the DLL on a basic level (starting and stopping network functionality)
+
 * April 8 - April 12:
+
 use Replicators to get a "character" moving across network
 
 * April 15 - April 19:
+
 implement dead reckoning
 
 * April 22 - April 26:
+
 polish
 
 * April 29 - May 3:
+
 finals week
 
 ---
