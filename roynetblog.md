@@ -28,7 +28,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main problem I've encountered is storing some sort of "pointer" to the members that are found via reflection. If I had some kind of pointer or reference, I'd be able to access the actual data specified by the user when they select one of the bools in the inspector and thus, put it into a packet to be sent over the network.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While this issue exists, I've moved to working on the actual plugin/DLL for the networking itself. I've begun creating the set up for threading and the communication between Unity and DLL. After that is done, I plan on moving to getting RakNet included so I can begin testing a basic message sending between computers to prove its functionality.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While this issue exists, I've moved to working on the actual plugin/DLL for the networking itself. I've begun creating the set up for threading and the communication between Unity and the DLL. After that's done, I plan on moving to getting RakNet included so I can begin testing a basic message sending between computers to prove its functionality.
 
 #### Some Reflection (not the C# kind)
 
