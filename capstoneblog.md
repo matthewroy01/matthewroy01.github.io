@@ -23,6 +23,34 @@
 ---
 ---
 
+## April ???, 2019
+### Short Giraffe Post Mortem (Sem. 2)
+
+---
+---
+
+## April ???, 2019
+### Properly Using Unity and ECS (Sem. 2)
+
+---
+---
+
+## April 14th, 2019
+### Short Giraffe at Pax East (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through the Champlain College booth, we were able to show off Short Giraffe at Pax East on Friday, March 29th. This was my first time at Pax and my first time at a large convention. Before that, the only thing similar was the Champlain Games Festival where we took [RV Punch](https://matthewroy01.github.io/index) last year, which is mostly small local companies and developers showing off their games. While there were faculty and other volunteer students helping to man the Champlain College booth, me and our lead designer, Christine, were in charge of showing off Short Giraffe.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firstly, I think the game showed really well. It suprised me that so many people would ask where they could get or buy the game after playing it. One of my friends who was helping to run the booth on Saturday actually sent me a message the next day saying that there were people asking to play Short Giraffe. While we're working on games and we get to see all the things wrong with it, but people who are just there to play games and hang out with friends just see the goofy core concept of Short Giraffe.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part of our success I think was due to the banner we had. The banner features large images of the logo as well as Agent G and a meerkat. This along with a screenshot of Agent G hanging on a branch I think really caught peoples attention as they walked by. There were a lot of people who audibly were caught off guard by how rediculous it was. People who stepped closer would also be pulled in by other people playing the game, since it was being mirrored on a larger screen in the back.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originally, we had intended to show off Short Giraffe just in its singleplayer mode due to the tutorial being better geared towards one person. However, due to a comment received from a faculty member at the booth, we decided to test multiplayer (which I had available via the toggleable dev cheats menu). Multiplayer definitely contributed to Short Giraffe's success at the booth, with the concept of the banner combined with gameplay showing the messages "Player 2 is now the neck" drawing in duos to play the game. To go on a bit of a tangent, we explained the controls to people if they were trying out multiplayer rather than having both players play through the tutorial. This lead to a slightly steep learning curve for most players where we would have to explain some concepts further, but most players would understand after they got past the first and second jumps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, we were taking emails for people who were interested in joining our email list, the effectiveness of which will probably have to wait to be seen when we release the game (although people can join our community Discord via the email list). We had stickers to give people, but regrettably, we should have had a business card for the game to help people remember after they left the booth since a lot of people asked for that. We also had to help a lot of people to find our social media accounts due to "Cup O' Joe Studios" being long and not super unique.
+
+---
+---
+
 ## March 15th, 2019
 ### Personal Goals/Evaluation (Sem. 2)
 
