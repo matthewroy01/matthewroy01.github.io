@@ -19,6 +19,38 @@
 ---
 ---
 
+## March 24th, 2019
+### Updated Schedule
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since the last post, I've been able to work on the main parts of the original RoyNet plans. The main focus of my work thus far has been on utitilizing C#'s reflection feature to acquire the members of each component attached to an object.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is done via a custom inspector script that overrides the Replicator component. Upon pressing the button on the Replicator, bools are displayed for each member that is found (organized by the component they came from and stored in a dropdown) allowing the user to select which members they want sent over the network.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main problem I've encountered is storing some sort of "pointer" to the members that are found via reflection. If I had some kind of pointer or reference, I'd be able to access the actual data specified by the user when they select one of the bools in the inspector and thus, put it into a packet to be sent over the network.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While this issue exists, I've moved to working on the actual plugin/DLL for the networking itself. I've begun creating the set up for threading and the communication between Unity and the DLL. After that's done, I plan on moving to getting RakNet included so I can begin testing a basic message sending between computers to prove its functionality.
+
+#### Some Reflection (not the C# kind)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall, I feel that with the original plan for RoyNet, I would have liked to get to the networking parts of the project sooner. However, RoyNet has also been a great opportunity to learn about tools, from how to make a tool with the user in mind to the actual code that needs to be written in Unity (like custom inspectors and custom editor windows). I've even written a tool for my Production project, Short Giraffe using what I've learned. It allows artists to randomly populate a surface with assets they provide using a custom editor window (read more about the production of Short Giraffe [here](https://matthewroy01.github.io/capstoneblog)).
+
+#### Here's a revised plan for the rest of the semester:
+
+* **March 25 - April 29:** find a solution for reflection "pointer" issue, get DLL working with any basic message sending
+
+* **April 1 - April 5:** create RoyNetManager class that communicates with the DLL on a basic level (starting and stopping network functionality)
+
+* **April 8 - April 12:** use Replicators to get a "character" moving across network
+
+* **April 15 - April 19:** implement dead reckoning
+
+* **April 22 - April 26:** polish
+
+* **April 29 - May 3:** finals week
+
+---
+---
+
 ## February 3rd, 2019
 ### Feature List and Schedule
 

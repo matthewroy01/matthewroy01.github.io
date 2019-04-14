@@ -23,6 +23,62 @@
 ---
 ---
 
+## April ???, 2019
+### Short Giraffe Post Mortem (Sem. 2)
+
+---
+---
+
+## April ???, 2019
+### Properly Using Unity and ECS (Sem. 2)
+
+---
+---
+
+## April 14th, 2019
+### Short Giraffe at Pax East (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through the Champlain College booth, we were able to show off Short Giraffe at Pax East on Friday, March 29th. This was my first time at Pax and my first time at a large convention. Before that, the only thing similar was the Champlain Games Festival where we took [RV Punch](https://matthewroy01.github.io/index) last year, which is mostly small local companies and developers showing off their games. While there were faculty and other volunteer students helping to man the Champlain College booth, me and our lead designer, Christine, were in charge of showing off Short Giraffe.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firstly, I think the game showed really well. It suprised me that so many people would ask where they could get or buy the game after playing it. One of my friends who was helping to run the booth on Saturday actually sent me a message the next day saying that there were people asking to play Short Giraffe. While we're working on games and we get to see all the things wrong with it, but people who are just there to play games and hang out with friends just see the goofy core concept of Short Giraffe.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Part of our success I think was due to the banner we had. The banner features large images of the logo as well as Agent G and a meerkat. This along with a screenshot of Agent G hanging on a branch I think really caught peoples attention as they walked by. There were a lot of people who audibly were caught off guard by how rediculous it was. People who stepped closer would also be pulled in by other people playing the game, since it was being mirrored on a larger screen in the back.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originally, we had intended to show off Short Giraffe just in its singleplayer mode due to the tutorial being better geared towards one person. However, due to a comment received from a faculty member at the booth, we decided to test multiplayer (which I had available via the toggleable dev cheats menu). Multiplayer definitely contributed to Short Giraffe's success at the booth, with the concept of the banner combined with gameplay showing the messages "Player 2 is now the neck" drawing in duos to play the game. To go on a bit of a tangent, we explained the controls to people if they were trying out multiplayer rather than having both players play through the tutorial. This lead to a slightly steep learning curve for most players where we would have to explain some concepts further, but most players would understand after they got past the first and second jumps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, we were taking emails for people who were interested in joining our email list, the effectiveness of which will probably have to wait to be seen when we release the game (although people can join our community Discord via the email list). We had stickers to give people, but regrettably, we should have had a business card for the game to help people remember after they left the booth since a lot of people asked for that. We also had to help a lot of people to find our social media accounts due to "Cup O' Joe Studios" being long and not super unique.
+
+---
+---
+
+## March 15th, 2019
+### Personal Goals/Evaluation (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So far this semester I think I've done a decent job as a member of my team. I've been able to act as a lead and help facilitate meetings in relation to my discipline. I've worked with the other disciplines in helping them get work done (improving mechanics and how they work for design and creating tools/implementing animation for art). Two things I'd like to improve on is the creation of tasks for my fellow programmers and having a more positive outlook on the team. So far, task creation has been difficult for the four programmers but we've recently met with programming faculty during a discipline review to help come up with more ideas for tasks. In terms of me being more positive, I tend to be rather pessimistic and "all-bussiness" when it comes to my interactions with the team, so I need to work on lightening up.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based on that, here are some goals for myself moving forward:
+
+* go to meetings/class more prepared with ideas for tasks for myself and the other programmers, perhaps writing a plan beforehand
+* lighten up a little, try to be more positive, we're making a game for pete's sake
+* continue to work on more tools, making the art populator tool was really fun, should benefit the team, and is a good thing to help expand my portfolio
+
+---
+---
+
+## March 14th, 2019
+### My Role as a Lead Programmer (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some time ago, I wrote a post titled "My Role as a Programmer" where I reflected on my responsibilities as a programmer: generally being focused on tools and keeping the process of content creation as smooth as possible for the other disciplines. Today, I want to discuss "My Role as a *Lead* Programmer". This semester, with the increased size of our team including three additional programmers, I've taken the role of the lead programmer.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since the start of this semester, our team has been managed mostly via lead meetings including myself, the two lead designers, the lead artist, and our two producers. Most of the team planning is done in these meetings creating a sort of "chain of command" where the leads discuss what tasks need to be done that week, and then us leads go back to the members of our discipline and help facilitate task creation.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other than that, I have some responsibility to oversee the work of my discipline members. It's not enforced too strongly, but sometimes programming tasks are set to "Feedback" instead of "Complete" for me to review their completeness. Additionally, I manage the repository at the end of each sprint to merge everyone's work by messaging individual people on our Discord to make sure no work is lost.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A major struggle I've had as a lead is task creation. Generally, it's been a struggle trying to come up with enough tasks for all of the programmers on the team and I usually struggle to come up with task ideas. To solve this issue, us programmers have met with the programming faculty during a discipline review to discuss potential tools, which we are now either working on or have in the backlog to work on during task droughts (although not having tasks to do probably isn't too bad and means that we're eitger on the right track or ahead of the game).
+
+---
+---
+
 ## March 2nd, 2019
 ### The Golden Path to Tools (Sem. 2)
 
