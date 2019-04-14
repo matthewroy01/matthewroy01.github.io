@@ -50,6 +50,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, we were taking emails for people who were interested in joining our email list, the effectiveness of which will probably have to wait to be seen when we release the game (although people can join our community Discord via the email list). We had stickers to give people, but regrettably, we should have had a business card for the game to help people remember after they left the booth since a lot of people asked for that. We also had to help a lot of people to find our social media accounts due to "Cup O' Joe Studios" being long and not super unique.
 
+![Christine and I at the Champlain College booth at Pax](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/pax_selfie_left.png "Christine and I at the Champlain College booth at Pax")
+
 ---
 ---
 
