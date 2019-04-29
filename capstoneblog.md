@@ -29,8 +29,16 @@
 ---
 ---
 
-## April ???, 2019
-### Properly Using Unity and ECS (Sem. 2)
+## April 28th, 2019
+### The Frustrations (and occasional successes) with Unity Prefabs (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the release of Unity 2018 last year, Unity has introduced some changes to their prefab systems. These systems are to generally make prefabs and their usage more robust but have come with some getting used to. One example of a change is that it's encouraged to edit prefabs by entering the special prefab editor rather than directly in the scene. That way, the prefab can be saved and automatically applied to all instances of it rather than having to remember to press the "Apply" button on the prefab to save changes (and is safer if the user accidentally hit apply when they actually wanted some instances of a prefab to be different).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The case of a user wanting to have an instance of a prefab that is actually different from the original prefab is actually pretty easy now. If a prefab is edited directly in the scene, it will be saved on that instance as an override. This is something that has to be remembered if testing something. Overrides can be reverted by right clicking the specific thing that was changed, or by reverting via the overrides dropdown at the top of the Inspector window. Having the ability to override certain things is pretty useful, except when you're on a relatively large team where it's hard to keep track of who's editing what. We commonly had problems where editing a prefab with a change meant for all instances of that prefab just wouldn't go through due to an override preventing it. This became a big problem with simple systems that use Unity's messaging systems such as buttons and levers where Unity Events are stored to things like open doors, activate lamps, etc. The overrides would prevent a change from reaching them, causing many headaches and manual fixes in our twenty-plus levels in Short Giraffe.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Similar problems extended to another new feature of prefabs, Nested Prefabs. This allows an instance of one prefab to live inside of another. For example, the player would have an instance of the jetpack prefab inside of it, but the version of the prefab inside the player would have overrides when compared to the original, leading to inconsistencies.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With all this complaining, the new prefab features obviously aren't all bad. When things are planned more carefully and Unity's component system is taken full advantage of, things can go rather smoothly. It's just that things need to be planned more carefully and how each component on each GameObject will be used must be considered and organized accordingly. When you do change a prefab by updating its model or animations, and all of them update automatically, it's incredibly helpful.
 
 ---
 ---
