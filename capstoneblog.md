@@ -39,7 +39,7 @@
 * 2 Space Levels
 * Second Boss Fight
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Due to having so many levels, it was incredibly difficult to make sure all of them worked and were polished. Problems with many people working in the scenes simultaneously and Unity prefab systems amplified the problems (see the previous blog post, "*The Frustrations (and occasional successes) with Unity Prefabs (Sem. 2)*").
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Due to having so many levels (21 total including the tutorial and both boss fights), it was incredibly difficult to make sure all of them worked and were polished. Problems with many people working in the scenes simultaneously and Unity prefab systems amplified the problems (see the previous blog post, "*The Frustrations (and occasional successes) with Unity Prefabs (Sem. 2)*").
 
 ---
 ---
