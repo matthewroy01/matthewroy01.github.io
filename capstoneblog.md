@@ -23,8 +23,23 @@
 ---
 ---
 
-## April ???, 2019
-### Short Giraffe Post Mortem (Sem. 2)
+## May 1st, 2019
+### Semester in Reflection (Sem. 2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On Friday, April 26th, all of us game studio seniors had our Senior Show. During the senior show, all of the senior production teams present their games in the forms of a pitch, a demo reel for the game, and then individual reels for each person on the team. Industry recruiters and our professors watched from the audience and the show is livestreamed on Twitch for our families and friends. Overall, I think it went rather well. We presented on stage and I was one of the people who helped to pitch the game before we showed our reel. The reel itself got a few laughs from the audience which is good as well. After the show, I was able to speak to a handful of recruiters about myself and Short Giraffe, and people had fun with the game.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The game itself however, I'm not very happy about in the end. I feel that it's very unpolished overall. I think the main mechanics and game loop we have are pretty good, but overall, the game is an incomplete experience. One of the things we tried to focus on during the semester was making as many levels as possible. In the end, these are all the levels in Short Giraffe:
+
+* Checklist Tutorial
+* 4 Savannah Levels
+* 4 City Levels
+* 4 Snow Levels
+* First Boss Fight
+* 4 Underground Levels
+* 2 Space Levels
+* Second Boss Fight
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Due to having so many levels, it was incredibly difficult to make sure all of them worked and were polished. Problems with many people working in the scenes simultaneously and Unity prefab systems amplified the problems (see the previous blog post, "*The Frustrations (and occasional successes) with Unity Prefabs (Sem. 2)*").
 
 ---
 ---
