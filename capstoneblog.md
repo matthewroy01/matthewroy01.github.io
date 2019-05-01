@@ -45,6 +45,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall, despite Short Giraffe not being super polished, we still plan on publishing the game to Steam so we technically have more time for polish work. With all of my complaining, I did have fun working on this project. Short Giraffe ended up being a really funny, wacky game. We had a narrative designer who actually wrote 5 conversations of unique dialogue in every level (excluding boss fights and the tutorial) meaning there are 95+ unique conversations throughout Short Giraffe, and they create some genuine laugh out loud moments. Additionally, during the production of Short Giraffe, we had a Community Discord where we not only got a few pieces of fanart, we also asked for suggestions for naming the meerkats in each level. Now, when you collect meerkats in the levels, it displays the names given by our community on their mugshots.
 
+![Our team photo at the Senior Show reception](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_team_photo.jpg "Our team photo at the Senior Show reception")
+
 ---
 ---
 
