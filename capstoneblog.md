@@ -127,7 +127,7 @@
 * the probability (weight) of each individual asset spawning (from 0 to 1)
 * the radius of each individual asset (assets will be prevented from spawning if they are within the radius of another prop)
 
-![An example of a pop pack](URL "An example of a pop pack")
+![An example of a pop pack](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_art_pop_pop_pack.PNG "An example of a pop pack")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I believe the interface of the tool is extremely important as well. After pressing the button the populate, the button is replaced with three buttons:
 
@@ -137,11 +137,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the assets are spawned with a random rotation or scale is also decided in the main interface of the tool.
 
-![The tool with multiple buttons](URL "The tool with multiple buttons")
+![The tool with multiple buttons](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_art_pop_interface.PNG "The tool with multiple buttons")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ability to save versus just leaving the assets as they are comes from the tool having to keep track of the assets to later delete them if need be. Upon saving, the list of assets that's kept track of internally is cleared for spawning more on another model. If the models are changed, the assets will also be cleared from their list for those new models as well.
 
-![Before and after gif](URL "Before and after gif")
+![Before and after gif](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_art_pop_tool.gif "Before and after gif")
 
 ---
 ---
