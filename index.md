@@ -64,6 +64,9 @@ Download Kid Icarus: Infinite Underworld [here on itch.io](https://matthewroy.it
 
 An infinitely generating vertical 2D platformer with randomly spawning enemies and random items to buy in shops. Kid Icarus: Infinite Underworld is a fan game based on Nintendo's Kid Icarus series.
 
+![Infinite Underworld Gameplay](https://media.giphy.com/media/VhitQhcCl4oUNRx4O3/giphy.gif)
+![Escaping the Orne](https://media.giphy.com/media/kyiIy5Vd93j3QfdCtF/giphy.gif)
+
 ---
 ---
 
