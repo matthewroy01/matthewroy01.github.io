@@ -21,11 +21,12 @@ Welcome to my portfolio!
 * Team size: 13
 * 2018-2019
 
-Short Giraffe is a playfully absurd 2.5D platformer with a unique movement mechanic. Playing as Agent G, players can extend and retract their neck to traverse the environment. With seven uses for the neck, this mechanized mammal is well equipped for any objective. One such objective is taking down the dastardly Meerkats who are out to ruin the world. As Agent G, players will investigate the meerkat plot by capturing the critters everywhere from the savannah, to snow-covered plains. Short Giraffe offers players a light-hearted atmosphere that delivers a series of complex puzzles.
+Short Giraffe is an absurd 2.5D platformer where you play as a short, secret agent giraffe, with a robotic, extendable neck. During the development of Short Giraffe, I was responsible for creating the neck mechanics, which I explain in [this presentation](https://docs.google.com/presentation/d/1NBbn_v0iP8DU4oaqRKyrn2upmnK2vs6KqNosCCPtRE4/edit#slide=id.g5d86bd0ae3_0_0).
 
 Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by Cup O' Joe Studios LLC. Follow us on [Twitter](https://twitter.com/cupojoestudios).
 
-View the trailer/gameplay reel [here](https://www.youtube.com/watch?v=lDDsjfHlHfQ).
+![Short Giraffe General Gameplay and Meerkats](https://media.giphy.com/media/JO9eGF4zXPC8CJvLP3/giphy.gif)
+![Short Giraffe Flashy Gameplay](https://media.giphy.com/media/UWVKBbkMy70uBtXLOx/giphy.gif)
 
 ---
 ---
