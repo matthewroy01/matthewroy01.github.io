@@ -38,6 +38,7 @@ Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by C
 * Team size: 8
 * 2018
 
+
 * Won Audience Award at Champlain Gamesfest 2018
 * Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018
 
@@ -58,7 +59,7 @@ View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
 
 * Arcade Platformer
 * Made in Unity 2018.2
-* Team size: 1
+* Team size: solo
 * 2018
 
 Download Kid Icarus: Infinite Underworld [here on itch.io](https://matthewroy.itch.io/infiniteunderworld).
