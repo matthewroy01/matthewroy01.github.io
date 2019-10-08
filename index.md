@@ -37,10 +37,8 @@ Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by C
 * Made in Unity 2017.3
 * Team size: 8
 * 2018
-
-
-* Won Audience Award at Champlain Gamesfest 2018
-* Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018
+* **Won Audience Award at Champlain Gamesfest 2018**
+* **Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018**
 
 Download RV Punch [here on itch.io](https://milkshed-games.itch.io/rvpunch).
 
