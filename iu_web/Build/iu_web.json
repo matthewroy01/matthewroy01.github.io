@@ -1,0 +1,13 @@
+{
+"companyName": "Matthew Roy",
+"productName": "Kid Icarus: Infinite Underworld",
+"dataUrl": "iu_web.data.unityweb",
+"asmCodeUrl": "iu_web.asm.code.unityweb",
+"asmMemoryUrl": "iu_web.asm.memory.unityweb",
+"asmFrameworkUrl": "iu_web.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
