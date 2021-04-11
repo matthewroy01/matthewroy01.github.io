@@ -7,7 +7,7 @@
 
 ### [Projects](https://matthewroy01.github.io/index)
 
-### [Networking Plugin for Unity, RoyNet](https://matthewroy01.github.io/roynetblog)
+### [SHTANK RPG Project Code Snippets](https://matthewroy01.github.io/shtank)
 
 ---
 ---
