@@ -40,7 +40,15 @@
 
 ![Code Snippet of SavePath Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepath.PNG "Code Snippet of SavePath Function")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally in *SavePathSegment*, we get to our reflection where we can use the string of the direction (remember this is now the absolute direction: "up", "down", "left", or "right") to grab the connecting grid space from the current grid space by name (each grid space has four potential connections, one in each cardinal direction). Here, the *TryAddGridSpace* returns false if the grid space we try to access is null or if the space is non-navigable, defined by the ability itself.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally in *SavePathSegment*, we get to our reflection where we can use the string of the direction (remember this is now the absolute direction: "up", "down", "left", or "right") to grab the connecting grid space from the current grid space by name (each grid space has four potential connections, one in each cardinal direction).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The resulting line is:
+
+*(GridSpace)currentGridSpace.GetType().GetField(direction).GetValue(currentGridSpace)*
+
+to get the next grid space along this path ability.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We pass this grid space into *TryAddGridSpace*, which returns false if the grid space we try to access is null or if the space is non-navigable, defined by the ability itself.
 
 ![Code Snippet of SavePathSegment Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepathsegment.PNG "Code Snippet of SavePathSegment Function")
 
