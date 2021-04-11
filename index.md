@@ -7,12 +7,24 @@
 
 ### [My Senior Capstone/Production Blog](https://matthewroy01.github.io/capstoneblog)
 
-### [Networking Plugin for Unity, RoyNet](https://matthewroy01.github.io/roynetblog)
+### [SHTANK RPG Project Code Snippets](https://matthewroy01.github.io/shtank)
 
 ---
 ---
 
 Welcome to my portfolio!
+
+### SHTANK
+
+* SRPG
+* Made in Unity 2020
+* Team size: solo
+* 2020 - present
+
+SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's my latest personal project. View code snippets from it here:
+
+---
+---
 
 ### Short Giraffe
 
