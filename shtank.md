@@ -24,7 +24,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To combat this, I am using directions that are relative to the direction a character is facing instead. These directions include "forwards", "backwards", "sideways", and "sidewaysOpposite". Here is an example of an ability that moves in a sort of circle:
 
-![Part Of The Sparrowrang Ability's Inspector](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_0.png "Part Of The Sparrowrang Ability's Inspector")
+![Part Of The Sparrowrang Ability's Inspector](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/sparrowrang_inspector.PNG "Part Of The Sparrowrang Ability's Inspector")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And here is the ability itself being used on the grid. Notice that the ability can also be flipped, essentially causing the "sideways" and "sidewaysOpposite" instructions to switch directions.
 
@@ -34,15 +34,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, in the *ProcessPathAbility* function, the absolute meaning of each relative direction is passed into *SavePath*, where the last four parameters passed into the function are string representations of "forwards", "sideways", "sidewaysOpposite", and "backwards". For example, if an ability is flipped and the character is facing downwards, then we pass "down" as forwards, "left" as sideways, etc.
 
-![Code Snippet of ProcessPathAbility Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_0.png "Code Snippet of ProcessPathAbility Function")
+![Code Snippet of ProcessPathAbility Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_processpathability.PNG "Code Snippet of ProcessPathAbility Function")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, within *SavePath*, we begin to loop through the instructions of the path ability and based on the relative direction, we pass some information and the absolute direction into *SavePathSegment*.
 
-![Code Snippet of SavePath Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_0.png "Code Snippet of SavePath Function")
+![Code Snippet of SavePath Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepath.PNG "Code Snippet of SavePath Function")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally in *SavePathSegment*, we get to our reflection where we can use the string of the direction (remember this is now the absolute direction: "up", "down", "left", or "right") to grab the connecting grid space from the current grid space by name (each grid space has four potential connections, one in each cardinal direction). Here, the *TryAddGridSpace* returns false if the grid space we try to access is null or if the space is non-navigable, defined by the ability itself.
 
-![Code Snippet of SavePathSegment Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/short_giraffe_0.png "Code Snippet of SavePathSegment Function")
+![Code Snippet of SavePathSegment Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepathsegment.PNG "Code Snippet of SavePathSegment Function")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All of this converting from more design-suitable directions to strings and using Reflection to get the grid spaces of the ability helps to keep the code cleaner and avoids an additional nested switch statement.
 
