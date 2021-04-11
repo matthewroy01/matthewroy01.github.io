@@ -28,7 +28,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And here is the ability itself being used on the grid. Notice that the ability can also be flipped, essentially causing the "sideways" and "sidewaysOpposite" instructions to switch directions.
 
-![The Sparrowrang Ability Being Rotated and Flipped In-Game](https://media.giphy.com/media/1xNmkGTSxvv5CM98bF/giphy.gif)
+![The Sparrowrang Ability Being Rotated and Flipped In-Game](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/sparrowrang_ingame.gif)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The code to accomplish something like this would normally be pretty bulky, with having to check all four relative directions, check if the ability is flipped, and then reevaluating them into their absolute directions. However, by using C#'s reflection feature, I can prevent at least a bit of nesting.
 
