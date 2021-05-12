@@ -21,7 +21,7 @@ Welcome to my portfolio!
 * Team size: solo
 * 2020 - present
 
-SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's my latest personal project. View code snippets from it here:
+SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's my latest personal project. View code snippets from it [here](https://matthewroy01.github.io/shtank).
 
 ---
 ---
