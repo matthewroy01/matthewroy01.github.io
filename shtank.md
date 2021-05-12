@@ -62,10 +62,13 @@ to get the next grid space along this path ability.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Having a character organized this way is a good way to get started and I can edit the pose by rotating each joint of the character, but it's not super useful if there isn't an easy way to create content with it. Using Unity's EditorWindow class, I'm able to create a custom editor window for my project to let me edit and save poses of the character. Within Unity's *OnGUI* function, which allows rendering in the editor, *GetReferences* is called to grab several bits of information about the currently selection Skeleton and Rig.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the user has an object selected in the hierarchy and it has a Skeleton component, it will be saved as the *activeSkeleton*.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If a Skeleton was found, it will try to resolve the *rigName* using the name of the selected object.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If there's an asset stored with *rigName* as its name, it will be put into an array and stored as *activeRig*.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, if a rig was found, a Pose will be stored as *activePose* if a Pose with the name *poseName* exists (poseName is set using a text field).
+If the user has an object selected in the hierarchy and it has a Skeleton component, it will be saved as the *activeSkeleton*.
+
+If a Skeleton was found, it will try to resolve the *rigName* using the name of the selected object.
+
+If there's an asset stored with *rigName* as its name, it will be put into an array and stored as *activeRig*.
+
+Finally, if a rig was found, a Pose will be stored as *activePose* if a Pose with the name *poseName* exists (poseName is set using a text field).
 
 ![Code Snippet of GetReferences Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepathsegment.PNG "Code Snippet of GetReferences Function")
 
