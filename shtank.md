@@ -56,23 +56,25 @@ to get the next grid space along this path ability.
 
 ## 2D Character Animation System and Tool
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to lower the scope of character art in a game that will feature so many characters, I've implemented a 2D skeleton system. In combination with Unity's built-in Hierarchy system, the Skeleton class is able to store each body part/joint that makes up a character.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to lower the scope of character art in a game that will feature so many characters, I've implemented a 2D skeleton system to allow for easy, data-driven animation. In combination with Unity's built-in Hierarchy, the Skeleton class is able to store each body part/joint that makes up a character.
 
 ![Code Snippet of Skeleton Class](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/animtool_skeleton.PNG "Code Snippet of Skeleton Class")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Having a character organized this way is a good way to get started and I can edit the pose by rotating each joint of the character, but it's not super useful if there isn't an easy way to create content with it. Using Unity's EditorWindow class, I'm able to create a custom editor window for my project to let me edit and save poses of the character. Within Unity's *OnGUI* function, which allows rendering in the editor, *GetReferences* is called to grab several bits of information about the currently selection Skeleton and Rig.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Having a character organized this way is a good way to get started but isn't all that's needed. I can edit the pose by rotating each joint of the character but it's not super useful if there isn't an easy way to create content with it. Using Unity's EditorWindow class, I'm able to create a custom editor window for my project to let me edit and save poses of the character.
 
-If the user has an object selected in the hierarchy and it has a Skeleton component, it will be saved as the *activeSkeleton*.
+Within Unity's *OnGUI* function, which allows rendering in the editor, *GetReferences* is called to grab several bits of information about the currently selection Skeleton and Rig. The editor window finds the Skeleton from the user's selection in the Hierarchy and is able to either find a saved Rig Scriptable Object or save a new one.
 
-If a Skeleton was found, it will try to resolve the *rigName* using the name of the selected object.
+* If the user has an object selected in the hierarchy and it has a Skeleton component, it will be saved as the *activeSkeleton*.
 
-If there's an asset stored with *rigName* as its name, it will be put into an array and stored as *activeRig*.
+* If a Skeleton was found, it will try to resolve the *rigName* using the name of the selected object.
 
-Finally, if a rig was found, a Pose will be stored as *activePose* if a Pose with the name *poseName* exists (poseName is set using a text field).
+* If there's an asset stored with *rigName* as its name, it will be put into an array and stored as *activeRig*.
+
+* Finally, if a rig was found, a Pose will be stored as *activePose* if a Pose with the name *poseName* exists (poseName is set using a text field).
 
 ![Code Snippet of GetReferences Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/animtool_getreferences.PNG "Code Snippet of GetReferences Function")
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As mentioned in the *GetReferences* function, a Pose can be saved. Additionally, a Pose can be loaded if the input name matches the existing Rig's saved poses. In the gif below, I am able to use the button to load poses but also to show you the different kinds of poses I can save with the tool!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As mentioned in the *GetReferences* function, a Pose can be saved. Additionally, a Pose can be loaded if the input name matches the existing Rig's saved poses. In the gif below, I am able to use the button to load poses but I can also use this opportunity to show you the different kinds of poses I can save with the tool!
 
 (sprites downloaded from The Spriter's Resource [here](https://www.spriters-resource.com/mobile/fireemblemheroes/sheet/104597/))
 
