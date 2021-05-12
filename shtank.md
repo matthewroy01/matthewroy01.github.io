@@ -58,7 +58,7 @@ to get the next grid space along this path ability.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to lower the scope of character art in a game that will feature so many characters, I've implemented a 2D skeleton system. In combination with Unity's built-in Hierarchy system, the Skeleton class is able to store each body part/joint that makes up a character.
 
-![Code Snippet of Skeleton Class](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepathsegment.PNG "Code Snippet of Skeleton Class")
+![Code Snippet of Skeleton Class](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/animtool_skeleton.PNG "Code Snippet of Skeleton Class")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Having a character organized this way is a good way to get started and I can edit the pose by rotating each joint of the character, but it's not super useful if there isn't an easy way to create content with it. Using Unity's EditorWindow class, I'm able to create a custom editor window for my project to let me edit and save poses of the character. Within Unity's *OnGUI* function, which allows rendering in the editor, *GetReferences* is called to grab several bits of information about the currently selection Skeleton and Rig.
 
@@ -70,17 +70,19 @@ If there's an asset stored with *rigName* as its name, it will be put into an ar
 
 Finally, if a rig was found, a Pose will be stored as *activePose* if a Pose with the name *poseName* exists (poseName is set using a text field).
 
-![Code Snippet of GetReferences Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepathsegment.PNG "Code Snippet of GetReferences Function")
+![Code Snippet of GetReferences Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/animtool_getreferences.PNG "Code Snippet of GetReferences Function")
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As mentioned in the *GetReferences* function, a Pose can be saved. Additionally, a Pose can be loaded if the input name matches the existing Rig's saved poses. In the gif below, I am able to use the button to load poses but also to show you the different kinds of poses I can save with the tool!
 
-![Poses Being Saved](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/sparrowrang_ingame.gif)
+(sprites downloaded from The Spriter's Resource [here](https://www.spriters-resource.com/mobile/fireemblemheroes/sheet/104597/))
+
+![Poses Being Loaded](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/animtool_loadingposes.gif)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, using functions to set the position and rotation of each joint and a calculated interpolation value between 0 and 1, I am able to interpolate the poses between one another to create animations!
 
-![Code Snippet of GetReferences Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/abilityprocessor_savepathsegment.PNG "Code Snippet of GetReferences Function")
+![Code Snippet of UpdatePoseLerp Function](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/animtool_updateposelerp.PNG "Code Snippet of UpdatePoseLerp Function")
 
-![Animation in Action](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/sparrowrang_ingame.gif)
+![Animation in Action](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/animtool_animation.gif)
 
 ## Enemy AI with Minimax
 
