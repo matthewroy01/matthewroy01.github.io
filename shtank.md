@@ -14,15 +14,15 @@
 
 ## Introduction
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHTANK RPG is an RPG set in a wacky universe of superheroes and focuses on the many members of the titular "Super Hero Team of Atomic Nashbalms from Kansville".
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHTANK RPG is a strategy RPG set in a wacky universe of superheroes and focuses on the many members of the titular "Super Hero Team of Atomic Nashbalms from Kansville".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On this page, I will show some code snippets from across the project.
 
 ## "Path Ability" Design Pipeline Solution
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of SHTANK's ability types is the "Path Ability". It is designed to allow a character to follow a path for their attack, as if they are dashing along a certain pattern. Theoretically, this sort of ability could be defined by a list of directions like "left", "right", "up", or "down". However, the abilities in SHTANK can also be rotated to face the four cardinal directions, meaning that directions like "up" or "left" aren't sufficient enough.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In SHTANK, characters can attack using abilities. These abilities can cover different numbers of grid spaces in different shapes and can apply different effects to allies and enemies. One of SHTANK's ability types is the "Path Ability". It is designed to allow a character to follow a path for their attack, as if they are dashing along a certain pattern. Theoretically, this sort of ability could be defined by a list of directions like "left", "right", "up", or "down". However, the abilities in SHTANK can also be rotated to face the four cardinal directions, meaning that directions like "up" or "left" aren't sufficient enough.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To combat this, I am using directions that are relative to the direction a character is facing instead. These directions include "forwards", "backwards", "sideways", and "sidewaysOpposite". Here is an example of an ability that moves in a sort of circle:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To combat this, I am using directions that are relative to the direction the player is aiming an ability. These directions include "forwards", "backwards", "sideways", and "sidewaysOpposite". To explain, if an ability is being aimed upwards, "forwards" is up, "backwards" is down, and "sideways" is right. Here is an example of an ability that moves in a sort of circle:
 
 ![Part Of The Sparrowrang Ability's Inspector](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/shtank/sparrowrang_inspector.PNG "Part Of The Sparrowrang Ability's Inspector")
 
