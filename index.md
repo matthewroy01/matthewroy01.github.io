@@ -23,6 +23,9 @@ Welcome to my portfolio!
 
 SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's my latest personal project. View code snippets from it [here](https://matthewroy01.github.io/shtank).
 
+![SHTANK Overworld Gameplay](https://media.giphy.com/media/UxIhor9UpGjT37ayz6/giphy.gif)
+![SHTANK Combat Gameplay](https://media.giphy.com/media/Mdghn776BDqga7LdfW/giphy.gif)
+
 ---
 ---
 
