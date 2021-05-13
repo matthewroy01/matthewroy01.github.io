@@ -23,6 +23,19 @@ Welcome to my portfolio!
 
 SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's my latest personal project. View code snippets from it [here](https://matthewroy01.github.io/shtank).
 
+### WASH Water Trucking and Cost Recovery for Water Systems
+
+* Educational Software
+* Made with Phaser 3
+* Team makeup: 2 programmers, 2 designers/producers
+* July 2020 - May 2021
+
+WASH is a learning tool designed to teach users about water turcking and cost reocvery mechanisms in relation to maintaining local water systems in communities. It was created both [in English](https://get.disasterready.org/water-trucking-and-cost-recovery-online-training/) and [in Arabic](https://get.disasterready.org/water-trucking-and-cost-recovery-online-training/).
+
+I worked on the project as a contracted programmer through [Weathered Sweater](https://www.weatheredsweater.com/) and working with [GameTheory](https://www.gametheoryco.com/).
+
+Contributions involved programming in **Javascript** with **Phaser 3** with some minor HTML and CSS. The project was built with the SCORM 2004 platform and for the Cornerstone LMS. The project is split into several "games" that each have multiple activities including things like dialogue, flipcards, labs, or drag and drop. The activities run on a data driven system and the details of each activity are defined with json data. Additionally, the project involved working with designers and recreating visual layouts created by them.
+
 ---
 ---
 
