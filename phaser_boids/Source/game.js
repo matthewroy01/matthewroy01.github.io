@@ -27,10 +27,6 @@ var Vector2 = Phaser.Math.Vector2;
 function preload ()
 {
     this.load.image('triangle', '../triangle.png');
-
-    this.load.image('sky', 'http://labs.phaser.io/assets/skies/space3.png');
-    this.load.image('logo', 'http://labs.phaser.io/assets/sprites/phaser3-logo.png');
-    this.load.image('red', 'http://labs.phaser.io/assets/particles/red.png');
 }
 
 function create ()
