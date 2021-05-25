@@ -16,7 +16,7 @@ var config = {
     scale: {
       mode: Phaser.Scale.FIT,
     },
-    loaderCrossOrigin: "anonymous"
+    loaderCrossOrigin: "anonymous",
 };
 
 var game = new Phaser.Game(config);
