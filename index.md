@@ -82,6 +82,23 @@ Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by C
 ---
 ---
 
+### Kid Icarus: Infinite Underworld
+
+* Arcade Platformer
+* Made in Unity 2018.2
+* Team size: solo
+* 2018
+
+Download Kid Icarus: Infinite Underworld [here on itch.io](https://matthewroy.itch.io/infiniteunderworld).
+
+An infinitely generating vertical 2D platformer with randomly spawning enemies and random items to buy in shops. Kid Icarus: Infinite Underworld is a fan game based on Nintendo's Kid Icarus series.
+
+![Infinite Underworld Gameplay](https://media.giphy.com/media/VhitQhcCl4oUNRx4O3/giphy.gif)
+![Escaping the Orne](https://media.giphy.com/media/kyiIy5Vd93j3QfdCtF/giphy.gif)
+
+---
+---
+
 ### RV Punch
 
 * Racing
@@ -100,23 +117,6 @@ RV Punch is a racing game where RV's are equipped with giant mech fists. Punch y
 ![RV Punch Trailer Gif](https://media.giphy.com/media/9VtKPiHFVRsvIM8RPN/giphy.gif)
 
 View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
-
----
----
-
-### Kid Icarus: Infinite Underworld
-
-* Arcade Platformer
-* Made in Unity 2018.2
-* Team size: solo
-* 2018
-
-Download Kid Icarus: Infinite Underworld [here on itch.io](https://matthewroy.itch.io/infiniteunderworld).
-
-An infinitely generating vertical 2D platformer with randomly spawning enemies and random items to buy in shops. Kid Icarus: Infinite Underworld is a fan game based on Nintendo's Kid Icarus series.
-
-![Infinite Underworld Gameplay](https://media.giphy.com/media/VhitQhcCl4oUNRx4O3/giphy.gif)
-![Escaping the Orne](https://media.giphy.com/media/kyiIy5Vd93j3QfdCtF/giphy.gif)
 
 ---
 ---
