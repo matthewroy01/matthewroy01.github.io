@@ -29,6 +29,26 @@ SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's
 ---
 ---
 
+### Boids Simulations in Phaser 3 and Godot
+
+* Tech Demo
+* Made with Phaser 3 and Godot
+* Solo project
+* May 2021
+
+Originally created with C# in Godot, I have also converted the code into Javascript/HTML/CSS with Phaser 3 and put it onto my portfolio site [here](https://matthewroy01.github.io/phaser_boids/).
+
+*Boids in 3D in Godot:*
+
+![Boids Simulation in Godot](https://media.giphy.com/media/SzINIGwUrAql0QyiU6/giphy.gif)
+
+*Boids in 2D in Phaser 3:*
+
+![Boids Simulation in Javascript](https://media.giphy.com/media/h6uImEX2K7N5rFX2JH/giphy.gif)
+
+---
+---
+
 ### WASH Water Trucking and Cost Recovery for Water Systems
 
 * Educational Software
@@ -58,26 +78,6 @@ Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by C
 
 ![Short Giraffe General Gameplay and Meerkats](https://media.giphy.com/media/JO9eGF4zXPC8CJvLP3/giphy.gif)
 ![Short Giraffe Flashy Gameplay](https://media.giphy.com/media/UWVKBbkMy70uBtXLOx/giphy.gif)
-
----
----
-
-### Boids Simulations in Phaser 3 and Godot
-
-* Tech Demo
-* Made with Phaser 3 and Godot
-* Solo project
-* May 2021
-
-Originally created with C# in Godot, I have also converted the code into Javascript/HTML/CSS with Phaser 3 and put it onto my portfolio site [here](https://matthewroy01.github.io/phaser_boids/).
-
-*Boids in 3D in Godot:*
-
-![Boids Simulation in Godot](https://media.giphy.com/media/SzINIGwUrAql0QyiU6/giphy.gif)
-
-*Boids in 2D in Phaser 3:*
-
-![Boids Simulation in Javascript](https://media.giphy.com/media/h6uImEX2K7N5rFX2JH/giphy.gif)
 
 ---
 ---
