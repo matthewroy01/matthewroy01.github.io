@@ -58,7 +58,7 @@ Originally created with C# in Godot, I have also converted the code into Javascr
 
 ![Boids Simulation in Godot](https://media.giphy.com/media/SzINIGwUrAql0QyiU6/giphy.gif)
 
-*Boids in 2D in Phaser 3*
+*Boids in 2D in Phaser 3:*
 
 ![Boids Simulation in Javascript](https://media.giphy.com/media/h6uImEX2K7N5rFX2JH/giphy.gif)
 
