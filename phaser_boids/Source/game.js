@@ -26,7 +26,7 @@ var Vector2 = Phaser.Math.Vector2;
 
 function preload ()
 {
-    this.load.image('triangle', '../triangle.png');
+    this.load.image('triangle', 'https://matthewroy01.github.io/phaser_boids/triangle.png');
 }
 
 function create ()
@@ -36,13 +36,36 @@ function create ()
     game.refFlockManager = new FlockManager(this);
     game.refFlockManager.SpawnInitialBoids();
 
-    //this.add.image(400, 300, 'sky');
+    // add some text
+    this.add.text(0, 0, 'Simple Boids simulation in Phaser 3 made by Matthew Roy.', { color: 'blue' });
+    this.add.text(0, 20, 'Click here to return to my portfolio.', { color: 'purple' });
 
-    //var logo = this.physics.add.image(400, 100, 'triangle');
+    // create a button
+    game.button = this.add.rectangle(355 * 0.5, 27, 355, 20, 0x000000);
+    game.button.setAlpha(0.001);
+    game.button.setInteractive();
 
-    //logo.setVelocity(100, 200);
-    //logo.setBounce(1, 1);
-    //logo.setCollideWorldBounds(true);
+    // set up button input
+    game.button.on('pointerover', function()
+    {
+        game.button.setAlpha(0.2);
+    });
+
+    game.button.on('pointerout', function()
+    {
+        game.button.setAlpha(0.001);
+    });
+
+    game.button.on('pointerdown', function()
+    {
+        game.button.setAlpha(0.5);
+    });
+
+    game.button.on('pointerup', function()
+    {
+        console.log("Returning to portfolio...");
+        window.location.href = 'https://matthewroy01.github.io/';
+    });
 }
 
 function update ()
