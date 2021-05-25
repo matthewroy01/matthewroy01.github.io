@@ -38,14 +38,38 @@ FlockManager.prototype._PhysicsProcess = function()
     {
         console.log(this.boids.list.length);
         this.boids.list.forEach(element => element._PhysicsProcess());
-        //for (i = 0; i < this.boids.list.length; ++i)
-        //{
-            //this.boids.list[i]._PhysicsProcess();
-        //}
     }
 };
 
 FlockManager.prototype.GetBoids = function()
 {
     return this.boids;
+};
+
+FlockManager.prototype.AddBoid = function()
+{
+    if (this.boids.length < 50)
+    {
+        // create and initialze a new Boid
+        tmp = new Boid(this.scene);
+        tmp.Initialize(this);
+
+        // move it to the center of the screen
+        tmp.sprite.x = 400;
+        tmp.sprite.y = 300;
+
+        // add it to the list
+        this.boids.add(tmp);
+    }
+};
+
+FlockManager.prototype.RemoveBoid = function()
+{
+    if (this.boids.length > 1)
+    {
+        boid = this.boids.list[this.boids.list.length - 1];
+        boid.sprite.destroy();
+        boid.sprite = null;
+        this.boids.remove(boid);
+    }
 };

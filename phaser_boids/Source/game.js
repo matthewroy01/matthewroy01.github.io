@@ -31,7 +31,7 @@ function preload ()
 
 function create ()
 {
-    this.cameras.main.setBackgroundColor('#ffffff');
+    this.cameras.main.setBackgroundColor('#dddddd');
 
     game.refFlockManager = new FlockManager(this);
     game.refFlockManager.SpawnInitialBoids();
@@ -40,38 +40,84 @@ function create ()
     this.add.text(0, 0, 'Simple Boids simulation in Phaser 3 made by Matthew Roy.', { color: 'blue' });
     this.add.text(0, 20, 'Click here to return to my portfolio.', { color: 'purple' });
 
+    this.add.text(0, 60, '+ Add Boid', { color: 'red' });
+    this.add.text(0, 80, '- Remove Boid', {color: 'red' });
+
+    game.counterText = this.add.text(0, 100, 'There are 20 Boids', {color: 'gray' });
+
     // create a button
     game.button = this.add.rectangle(355 * 0.5, 27, 355, 20, 0x000000);
-    game.button.setAlpha(0.001);
-    game.button.setInteractive();
+    CreateButtonInput(game.button, ReturnButton);
 
-    // set up button input
-    game.button.on('pointerover', function()
-    {
-        game.button.setAlpha(0.2);
-    });
+    game.add = this.add.rectangle(100 * 0.5, 67, 100, 20, 0x000000);
+    CreateButtonInput(game.add, AddButton);
 
-    game.button.on('pointerout', function()
-    {
-        game.button.setAlpha(0.001);
-    });
-
-    game.button.on('pointerdown', function()
-    {
-        game.button.setAlpha(0.5);
-    });
-
-    game.button.on('pointerup', function()
-    {
-        console.log("Returning to portfolio...");
-        window.location.href = 'https://matthewroy01.github.io/';
-    });
+    game.remove = this.add.rectangle(130 * 0.5, 87, 130, 20, 0x000000);
+    CreateButtonInput(game.remove, RemoveButton);
 }
 
 function update ()
 {
     game.refFlockManager._PhysicsProcess();
 }
+
+CreateButtonInput = function(button, callback)
+{
+    button.setAlpha(0.001);
+    button.setInteractive();
+
+    // set up button input
+    button.on('pointerover', function()
+    {
+        button.setAlpha(0.2);
+    });
+
+    button.on('pointerout', function()
+    {
+        button.setAlpha(0.001);
+    });
+
+    button.on('pointerdown', function()
+    {
+        button.setAlpha(0.5);
+    });
+
+    button.on('pointerup', function()
+    {
+        button.setAlpha(0.2);
+        callback();
+    });
+};
+
+ReturnButton = function()
+{
+    window.location.href = 'https://matthewroy01.github.io/';
+};
+
+AddButton = function()
+{
+    game.refFlockManager.AddBoid();
+
+    // update counter text
+    game.counterText.text = 'There are ' + game.refFlockManager.GetBoids().list.length + " Boids";
+};
+
+RemoveButton = function()
+{
+    game.refFlockManager.RemoveBoid();
+
+    // update counter text
+    tmp = game.refFlockManager.GetBoids().list.length;
+
+    if (tmp === 1)
+    {
+        game.counterText.text = 'There is ' + game.refFlockManager.GetBoids().list.length + " Boid :(";
+    }
+    else
+    {
+        game.counterText.text = 'There are ' + game.refFlockManager.GetBoids().list.length + " Boids";
+    }
+};
 
 GetRandBetweenNegativeOneAndOne = function()
 {
