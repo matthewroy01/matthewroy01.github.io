@@ -55,9 +55,11 @@ Contributions involved programming in **Javascript** with **Phaser 3** with some
 Originally created with C# in Godot, I have also converted the code into Javascript/HTML/CSS with Phaser 3 and put it onto my portfolio site [here](https://matthewroy01.github.io/phaser_boids/).
 
 *Boids in 3D in Godot:*
+
 ![Boids Simulation in Godot](https://media.giphy.com/media/SzINIGwUrAql0QyiU6/giphy.gif)
 
 *Boids in 2D in Phaser 3*
+
 ![Boids Simulation in Javascript](https://media.giphy.com/media/h6uImEX2K7N5rFX2JH/giphy.gif)
 
 ---
