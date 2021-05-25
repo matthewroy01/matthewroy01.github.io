@@ -45,6 +45,21 @@ Contributions involved programming in **Javascript** with **Phaser 3** with some
 ---
 ---
 
+### Boids Simulations in Phaser 3 and Godot
+
+* Tech Demo
+* Made with Phaser 3 and Godot
+* Solo project
+* May 2021
+
+Originally created with C# in Godot, I have also converted the code into Javascript/HTML/CSS with Phaser 3 and put it onto my portfolio site [here](https://matthewroy01.github.io/phaser_boids/).
+
+![Boids Simulation in Godot](https://media.giphy.com/media/JO9eGF4zXPC8CJvLP3/giphy.gif)
+![Boids Simulation in Javascript](https://media.giphy.com/media/UWVKBbkMy70uBtXLOx/giphy.gif)
+
+---
+---
+
 ### Short Giraffe
 
 * Puzzle Platformer
