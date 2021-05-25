@@ -71,7 +71,7 @@ Contributions involved programming in **Javascript** with **Phaser 3** with some
 
 Short Giraffe is an absurd 2.5D platformer where you play as a short, secret agent giraffe, with a robotic, extendable neck. During the development of Short Giraffe, I was responsible for creating the neck mechanics, which I explain in [this presentation](https://docs.google.com/presentation/d/1NBbn_v0iP8DU4oaqRKyrn2upmnK2vs6KqNosCCPtRE4/edit#slide=id.g5d86bd0ae3_0_0).
 
-Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by Cup O' Joe Studios LLC. Follow us on [Twitter](https://twitter.com/cupojoestudios).
+Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by Cup O' Joe Studios LLC. You can download the final build of the game or the build from PAX East 2019 on Itch (here)[https://cupojoestudiosllc.itch.io/short-giraffe]. 
 
 ![Short Giraffe General Gameplay and Meerkats](https://media.giphy.com/media/JO9eGF4zXPC8CJvLP3/giphy.gif)
 ![Short Giraffe Flashy Gameplay](https://media.giphy.com/media/UWVKBbkMy70uBtXLOx/giphy.gif)
