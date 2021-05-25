@@ -32,8 +32,8 @@ SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's
 ### Boids Simulations in Phaser 3 and Godot
 
 * Tech Demo
-* Made with Phaser 3 and Godot
-* Solo project
+* Made with Phaser 3 and Godot, respectively
+* Team size: solo
 * May 2021
 
 Originally created with C# in Godot, I have also converted the code into Javascript/HTML/CSS with Phaser 3 and put it onto my portfolio site [here](https://matthewroy01.github.io/phaser_boids/).
