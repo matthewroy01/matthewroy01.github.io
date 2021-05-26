@@ -29,6 +29,23 @@ SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's
 ---
 ---
 
+### Boids Simulations in Phaser 3 and Godot
+
+* Tech Demo
+* Made with Phaser 3 and Godot, respectively
+* Team size: solo
+* May 2021
+
+Originally created with C# in Godot, I have also converted the code into Javascript/HTML/CSS with Phaser 3 and put it onto my portfolio site [here](https://matthewroy01.github.io/phaser_boids/).
+
+Here are Boids in 3D in Godot (top) and Boids in 2D in Phaser 3 (bottom):
+
+![Boids Simulation in Godot](https://media.giphy.com/media/SzINIGwUrAql0QyiU6/giphy.gif)
+[![Boids Simulation in Javascript](https://media.giphy.com/media/h6uImEX2K7N5rFX2JH/giphy.gif)](https://matthewroy01.github.io/phaser_boids/)
+
+---
+---
+
 ### WASH Water Trucking and Cost Recovery for Water Systems
 
 * Educational Software
@@ -54,32 +71,10 @@ Contributions involved programming in **Javascript** with **Phaser 3** with some
 
 Short Giraffe is an absurd 2.5D platformer where you play as a short, secret agent giraffe, with a robotic, extendable neck. During the development of Short Giraffe, I was responsible for creating the neck mechanics, which I explain in [this presentation](https://docs.google.com/presentation/d/1NBbn_v0iP8DU4oaqRKyrn2upmnK2vs6KqNosCCPtRE4/edit#slide=id.g5d86bd0ae3_0_0).
 
-Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by Cup O' Joe Studios LLC. Follow us on [Twitter](https://twitter.com/cupojoestudios).
+Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by Cup O' Joe Studios LLC. You can download the final build of the game or the build from PAX East 2019 on Itch [here](https://cupojoestudiosllc.itch.io/short-giraffe).
 
 ![Short Giraffe General Gameplay and Meerkats](https://media.giphy.com/media/JO9eGF4zXPC8CJvLP3/giphy.gif)
 ![Short Giraffe Flashy Gameplay](https://media.giphy.com/media/UWVKBbkMy70uBtXLOx/giphy.gif)
-
----
----
-
-### RV Punch
-
-* Racing
-* Made in Unity 2017.3
-* Team size: 8
-* 2018
-* **Won Audience Award at Champlain Gamesfest 2018**
-* **Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018**
-
-Download RV Punch [here on itch.io](https://milkshed-games.itch.io/rvpunch).
-
-Made for Production 2, spring 2018 semester by MilkShed Games. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
-
-RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
-
-![RV Punch Trailer Gif](https://media.giphy.com/media/9VtKPiHFVRsvIM8RPN/giphy.gif)
-
-View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
 
 ---
 ---
@@ -101,6 +96,28 @@ An infinitely generating vertical 2D platformer with randomly spawning enemies a
 ---
 ---
 
+### RV Punch
+
+* Racing
+* Made in Unity 2017.3
+* Team size: 8
+* 2018
+* **Won Audience Award at Champlain Gamesfest 2018**
+* **Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018**
+
+Made for Production 2, spring 2018 semester by MilkShed Games. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
+
+RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
+
+![RV Punch Trailer Gif](https://media.giphy.com/media/9VtKPiHFVRsvIM8RPN/giphy.gif)
+
+View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY).
+
+Download RV Punch [here on itch.io](https://milkshed-games.itch.io/rvpunch).
+
+---
+---
+
 ### Panic
 
 * Strategy
@@ -114,7 +131,7 @@ Panic is a 2D, top-down strategy game with horror elements. The player moves aro
 
 ![Panic Gif](https://media.giphy.com/media/4T7zmKRa65oUFW8cJ5/giphy.gif)
 
-[Download this game on Game Jolt](https://gamejolt.com/games/Panic/308831)
+Download Panic [here on itch.io](https://matthewroy.itch.io/panic).
 
 ---
 ---
@@ -132,7 +149,7 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 
 ![Opportunity Knocks Gif](https://media.giphy.com/media/SiJYIT5CxwITBRDcCv/giphy.gif)
 
-[Download this game on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks)
+Download Opportunity Knocks [here on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks).
 
 ---
 ---
