@@ -23,3 +23,5 @@ email: matthroy09@gmail.com
 [My GitHub](https://github.com/matthewroy01)
 
 [My Bitbucket](https://bitbucket.org/MatthewRoy01/)
+
+[My Itch.io](https://matthewroy.itch.io/)
