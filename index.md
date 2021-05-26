@@ -105,15 +105,15 @@ An infinitely generating vertical 2D platformer with randomly spawning enemies a
 * **Won Audience Award at Champlain Gamesfest 2018**
 * **Won award in "Innovation in Movement Mechanics" at RPI Gamefest 2018**
 
-Download RV Punch [here on itch.io](https://milkshed-games.itch.io/rvpunch).
-
 Made for Production 2, spring 2018 semester by MilkShed Games. Follow MilkShed Games on [Twitter](https://twitter.com/MilkShedGames).
 
 RV Punch is a racing game where RV's are equipped with giant mech fists. Punch your opponents to hinder them or punch off of walls to reach new speeds and heights.
 
 ![RV Punch Trailer Gif](https://media.giphy.com/media/9VtKPiHFVRsvIM8RPN/giphy.gif)
 
-View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY)
+View the full trailer [here](https://www.youtube.com/watch?v=mn1Y-4wrkfY).
+
+Download RV Punch [here on itch.io](https://milkshed-games.itch.io/rvpunch).
 
 ---
 ---
@@ -131,7 +131,7 @@ Panic is a 2D, top-down strategy game with horror elements. The player moves aro
 
 ![Panic Gif](https://media.giphy.com/media/4T7zmKRa65oUFW8cJ5/giphy.gif)
 
-[Download this game on Game Jolt](https://gamejolt.com/games/Panic/308831)
+Download Panic [here on itch.io](https://matthewroy.itch.io/panic).
 
 ---
 ---
@@ -149,7 +149,7 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 
 ![Opportunity Knocks Gif](https://media.giphy.com/media/SiJYIT5CxwITBRDcCv/giphy.gif)
 
-[Download this game on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks)
+Download Opportunity Knocks [here on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks).
 
 ---
 ---
