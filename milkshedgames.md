@@ -22,7 +22,7 @@
 
 ## Panic
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Panic is a 3D remake of my [original Panic](https://matthewroy.itch.io/panic) game. It included 3D visuals, new enemies, additional levels, and a more expansive menu/scoring systems.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Panic is a 3D remake of my [original Panic](https://matthewroy.itch.io/panic) game. It included 3D visuals, new enemies, additional levels, and a more expansive menu/scoring systems. You can find the new version of the game [here](https://milkshed-games.itch.io/panic-2020).
 
 ## RV Punch
 
