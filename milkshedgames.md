@@ -1,4 +1,4 @@
-# SHTANK RPG Project Code Snippets
+# About MilkShed Games
 
 ---
 ---
