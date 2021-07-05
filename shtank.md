@@ -5,9 +5,11 @@
 
 ### [About Me Page](https://matthewroy01.github.io/aboutme)
 
-### [Projects](https://matthewroy01.github.io/index)
+### [Projects Page](https://matthewroy01.github.io)
 
 ### [My Senior Capstone/Production Blog](https://matthewroy01.github.io/capstoneblog)
+
+### SHTANK RPG Project Code Snippets
 
 ### [About MilkShed Games](https://matthewroy01.github.io/milkshedgames)
 
