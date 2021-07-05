@@ -5,6 +5,8 @@
 
 ### [About Me Page](https://matthewroy01.github.io/aboutme)
 
+### Projects
+
 ### [My Senior Capstone/Production Blog](https://matthewroy01.github.io/capstoneblog)
 
 ### [SHTANK RPG Project Code Snippets](https://matthewroy01.github.io/shtank)
