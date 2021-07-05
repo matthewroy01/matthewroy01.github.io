@@ -30,4 +30,4 @@
 
 ![RV Punch Wall Punching](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/milkshed/rvpunch_wallpunching.gif "RV Punch Wall Punching")
 
-![RV Punch Grappling](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/milkshed/rvpunch_grappling.gif "RV Punch Grappling")
+![RV Punch Grappling](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/milkshed/rvpunch_grapple.gif "RV Punch Grappling")
