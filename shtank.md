@@ -9,6 +9,8 @@
 
 ### [My Senior Capstone/Production Blog](https://matthewroy01.github.io/capstoneblog)
 
+### [About MilkShed Games](https://matthewroy01.github.io/milkshedgames)
+
 ---
 ---
 
