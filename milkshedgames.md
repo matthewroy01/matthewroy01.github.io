@@ -14,7 +14,7 @@
 ---
 ---
 
-![The MilkShed Games Logo](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/milkshed_logo.png "The MilkShed Games Logo")
+![The MilkShed Games Logo](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/milkshed/milkshed_logo.png "The MilkShed Games Logo")
 
 ## About MilkShed Games
 
@@ -27,3 +27,7 @@
 ## RV Punch
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RV Punch was a recreation of the [original RV Punch](https://milkshed-games.itch.io/rvpunch) project. It featured a new track, completely new visuals, and a completely new player controller programmed by me. We launched a [Kickstarter](https://www.kickstarter.com/projects/milkshedgames/rv-punch?ref=dli51r&token=ac7c14af) for it between April 9th, 2021 and May 9th, 2021.
+
+![RV Punch Wall Punching](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/milkshed/rvpunch_wallpunching.gif "RV Punch Wall Punching")
+
+![RV Punch Grappling](https://raw.githubusercontent.com/matthewroy01/matthewroy01.github.io/master/img/milkshed/rvpunch_grappling.gif "RV Punch Grappling")
