@@ -5,7 +5,7 @@
 
 ### [About Me Page](https://matthewroy01.github.io/aboutme)
 
-### Projects
+### Projects Page
 
 ### [My Senior Capstone/Production Blog](https://matthewroy01.github.io/capstoneblog)
 
