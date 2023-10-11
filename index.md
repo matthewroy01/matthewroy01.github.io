@@ -18,12 +18,25 @@
 
 Welcome to my portfolio!
 
-### Skator Gator
+---
+---
 
-Working with Weathered Sweater, I did support work for Skator Gator leading up to and after the game's launch on [Steam](https://store.steampowered.com/app/1760240/Skator_Gator/) and [itch.io](https://weatheredsweater.itch.io/skator-gator). I followed QA reports to polish play experience and fix bugs.
+### Skator Gator 3D (published project!)
 
-![Skator Gator screenshot 1](https://cdn.akamai.steamstatic.com/steam/apps/1760240/ss_9f597559d729b62306ba5ab15cfb55ac3cd8c535.600x338.jpg?t=1656596450)
-![Skator Gator screenshot 2](https://cdn.akamai.steamstatic.com/steam/apps/1760240/ss_b0eacb380a4f0d93e36630c18f4285dbfd667a96.600x338.jpg?t=1656596450)
+Working with Weathered Sweater, I did a large amount of gameplay programming including enemy AI and the game's 3D character controller. I also managed Steam builds and fixed bugs following the game's release on [Steam](https://store.steampowered.com/app/1996470/Skator_Gator_3D/) and [itch.io](https://weatheredsweater.itch.io/skator-gator-3d).
+
+![Skator Gator 3D gif 1](https://cdn.akamai.steamstatic.com/steam/apps/1996470/extras/Clip_1__10-27-22_.gif?t=1695254177)
+![Skator Gator 3D gif 2](https://cdn.akamai.steamstatic.com/steam/apps/1996470/extras/Clip_2__10-27-22_.gif?t=1695254177)
+
+---
+---
+
+### Skator Gator (published project!)
+
+Working with Weathered Sweater, I did support work for Skator Gator leading up to and after the game's launch on [Steam](https://store.steampowered.com/app/1760240/Skator_Gator/) and [itch.io](https://weatheredsweater.itch.io/skator-gator).
+
+![Skator Gator gif 1](https://cdn.akamai.steamstatic.com/steam/apps/1760240/extras/SG-gif-3.gif?t=1656596450)
+![Skator Gator gif 2](https://cdn.akamai.steamstatic.com/steam/apps/1760240/extras/SG-gif-1.gif?t=1656596450)
 
 ---
 ---
