@@ -20,9 +20,7 @@ Welcome to my portfolio!
 
 ### SHTANK
 
-* SRPG
-* Made in Unity 2020
-* Team size: solo
+* Solo SRPG Made in Unity
 * 2020 - present
 
 SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's my latest personal project. View code snippets from it [here](https://matthewroy01.github.io/shtank) featuring **AI and animation programming**. The project also features a heavy amount of **UI programming**.
@@ -35,9 +33,7 @@ SHTANK is a strategy RPG featuring wacky superheroes and grid-based combat. It's
 
 ### Boids Simulations in Phaser 3 and Godot
 
-* Tech Demo
-* Made with Phaser 3 and Godot, respectively
-* Team size: solo
+* Solo tech demo made with Phaser 3 and Godot, respectively
 * May 2021
 
 Originally created with C# in Godot, I have also converted the code into Javascript/HTML/CSS with Phaser 3 and put it onto my portfolio site [here](https://matthewroy01.github.io/phaser_boids/).
@@ -52,8 +48,7 @@ Here are Boids in 3D in Godot (top) and Boids in 2D in Phaser 3 (bottom):
 
 ### WASH Water Trucking and Cost Recovery for Water Systems
 
-* Educational Software
-* Made with Phaser 3
+* Educational Software made with Phaser 3
 * Team makeup: 2 programmers, 2 designers/producers
 * July 2020 - May 2021
 
@@ -68,8 +63,7 @@ Contributions involved programming in **Javascript** with **Phaser 3** with some
 
 ### Short Giraffe
 
-* Puzzle Platformer
-* Made in Unity 2018.3
+* Puzzle Platformer made in Unity
 * Team size: 13
 * 2018-2019
 
@@ -85,9 +79,7 @@ Made for Senior Capstone/Senior Production, fall 2018/spring 2019 semesters by C
 
 ### Kid Icarus: Infinite Underworld
 
-* Arcade Platformer
-* Made in Unity 2018.2
-* Team size: solo
+* Solo arcade platformer made in Unity
 * 2018
 
 Download Kid Icarus: Infinite Underworld [here on itch.io](https://matthewroy.itch.io/infiniteunderworld).
@@ -102,8 +94,7 @@ An infinitely generating vertical 2D platformer with randomly spawning enemies a
 
 ### RV Punch
 
-* Racing
-* Made in Unity 2017.3
+* Racing game made in Unity 2017.3
 * Team size: 8
 * 2018
 * **Won Audience Award at Champlain Gamesfest 2018**
@@ -124,9 +115,7 @@ Download RV Punch [here on itch.io](https://milkshed-games.itch.io/rvpunch).
 
 ### Panic
 
-* Strategy
-* Made in Unity 2017.2
-* Team size: solo
+* Solo strategy game made in Unity
 * 2017
 
 Panic was made for Advanced Seminar in Game Programming while studying abroad in Montreal.
@@ -142,8 +131,7 @@ Download Panic [here on itch.io](https://matthewroy.itch.io/panic).
 
 ### Opportunity Knocks
 
-* Action Game
-* Made in Unity 2017.3
+* Action Game made in Unity 2017.3
 * Team size: 4 (Game Jam)
 * 2018
 
@@ -154,36 +142,3 @@ Opportunity Knocks has the player controlling a Mars rover remotely from a compu
 ![Opportunity Knocks Gif](https://media.giphy.com/media/SiJYIT5CxwITBRDcCv/giphy.gif)
 
 Download Opportunity Knocks [here on the Global Game Jam site](https://globalgamejam.org/2018/games/opportunity-knocks).
-
----
----
-
-### Recreating the first dungeon from The Legend of Zelda
-
-* Action Adventure
-* Made in Visual Studio C++
-* Team size: 2
-* 2017
-
-Made as a final project in "Game Architecture" in C++.
-
-Created with [Nicholas Robbins](https://www.linkedin.com/in/nicholas-robbins-professional/), we roughly recreated the first dungeon from Nintendo's The Legend of Zelda.
-The project uses a code base we wrote throughout the semester, Allegro 5, and various game programming patterns like Game Loop and a Component System.
-
-![Zelda Gif](https://media.giphy.com/media/OjI22jqHhPmpszPrBD/giphy.gif)
-
----
----
-
-### Battle Beetles
-
-* 3D Fighter
-* Made in Unity 5
-* Team size: 4
-* 2017
-
-A summer project, this game is a work in progress.
-
-Battle Beetles aims to capture the sort of over the top scenarios you'd think up as a kid while playing with toys. Battle Beetles is a 3D arena fighter where mechanical beetles use their horns, antennae, and more to come out on top.
-
-![Battle Beetles Gif](https://media.giphy.com/media/23ZJNCnFnwTs6HKTbC/giphy.gif)
