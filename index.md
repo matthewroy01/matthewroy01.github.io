@@ -18,6 +18,16 @@
 
 Welcome to my portfolio!
 
+### Skator Gator
+
+Working with Weathered Sweater, I did support work for Skator Gator leading up to and after the game's launch on [Steam](https://store.steampowered.com/app/1760240/Skator_Gator/) and [itch.io](https://weatheredsweater.itch.io/skator-gator). I followed QA reports to polish play experience and fix bugs.
+
+![Skator Gator screenshot 1](https://cdn.akamai.steamstatic.com/steam/apps/1760240/ss_9f597559d729b62306ba5ab15cfb55ac3cd8c535.600x338.jpg?t=1656596450)
+![Skator Gator screenshot 2](https://cdn.akamai.steamstatic.com/steam/apps/1760240/ss_b0eacb380a4f0d93e36630c18f4285dbfd667a96.600x338.jpg?t=1656596450)
+
+---
+---
+
 ### SHTANK
 
 * Solo SRPG Made in Unity
